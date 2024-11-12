@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "Dynamic path planning and motion control of microrobotic swarms for mobile target tracking"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1

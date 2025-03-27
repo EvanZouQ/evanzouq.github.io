@@ -6,7 +6,7 @@ title: Publications
 
 > (^: equal contribution, *: corresponding author)
 
-## Journal Paper
+## Journal Articles
 
 - Q. Zou, X. Liu and J. Yu*, 2023. *Automatic Navigation of a Microrobotic Swarm for Tracking Multiple Mobile Targets*. ***IEEE Robotics and Automation Letters***, Vol. 9, Issue 10, 8858-8865, 2023. ([link](https://ieeexplore.ieee.org/abstract/document/10035475))
 
@@ -14,13 +14,13 @@ title: Publications
 
 ---
 
-## Conference Paper
+## Conference Articles
 
 <br>
 
 ---
 
-## Book Chapter
+## Book Chapters
 
 - Q. Zou, Y. Wang and J. Yu*, "Colloidal microrobotic swarms", in *Field-Driven Micro and Nanorobots for Biology and Medicine*, Springer, Cham, 2021, pp.179-209. ([link](https://link.springer.com/chapter/10.1007/978-3-030-80197-7_8))
 

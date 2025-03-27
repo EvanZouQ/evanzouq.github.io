@@ -23,7 +23,8 @@ National Scholarship (twice)
 - Research Assistant, Southern University of Science and Technology, China
 <br>
 Investigating the magnetic properties of Fe-Co alloys produced by metal injection molding(MIM)
-
+<br>
+<br>
 - Research Assistant, The Chinese University of Hong Kong, Shenzhen, China
 <br>
 Dynamic Path Planning and Motion Control of Microrobotic Swarms for Mobile Target Tracking

@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /blogs/index.html
-title: Blogs
+permalink: /research/index.html
+title: Research
 ---
 
 ## Chinese Blogs 中文博客

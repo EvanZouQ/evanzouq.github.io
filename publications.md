@@ -8,7 +8,7 @@ title: Publications
 
 ## Journal Paper
 
-- Q. Zou, X. Du, Y. Liu, H. Chen, Y. Wang and J. Yu, 2022. (Dynamic path planning and motion control of microrobotic swarms for mobile target tracking). (**IEEE Transactions on Automation Science and Engineering**), Vol. 20, Issue 4, 2454-2468, 2022.
+- Q. Zou, X. Du, Y. Liu, H. Chen, Y. Wang and J. Yu*, (Dynamic path planning and motion control of microrobotic swarms for mobile target tracking). (**IEEE Transactions on Automation Science and Engineering**), Vol. 20, Issue 4, 2454-2468, 2022.
 
 ---
 

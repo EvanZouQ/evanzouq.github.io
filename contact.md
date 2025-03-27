@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /hobbies/index.html
-title: Hobbies
+permalink: /contact/index.html
+title: Contact
 ---
 
 # Hobbies

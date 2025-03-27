@@ -2,20 +2,33 @@
 layout: page
 ---
 
-# About Me
+## Education
 
-Here is **Qian Zou (Evan, 邹骞)**.<br>
 
-I am a graduate student in the Department of Engineering at the University of Cambridge, advised by [Prof. Özgür Akan](https://ioe.eng.cam.ac.uk/directory/akan), within [Internet of Everything (IoE) Group](https://ioe.eng.cam.ac.uk/). I also spent a lovely summer research program with [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) at [Artificial Intelligence Group](https://www.cl.cam.ac.uk/research/ai/). Prior to Cambridge,  I have worked on System Engineering, Cybersecurity and Wireless Communication with [Prof. Zhezhuang Xu](https://scholar.google.com.hk/citations?user=iZ7LQRkAAAAJ&hl=zh-CN) and [Dr. Meng Yuan](https://myuan27.github.io/). Recently, I was honored to be selected as **AAAI-2024 and KDD-2024 Undergraduate Scholars**.<br>
-
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hc663 [at] cam.ac.uk
-
-**<font color="#990000">I am actively seeking a PhD position for 2025 Fall admission. If you have any information, please contact me. Thank you!</font>**
+BEng in Mechanical Engineering, Hainan University, China
+MSc in Sensor and Imaging Systems, University of Glasgow & University of Edinburgh, UK
 
 ---
+
+## Awards & Honors
+
+Nomination of China College Student of the Year
+<br>
+Nomination of The Stars of Self-improvement of Chinese College Students
+<br>
+National Scholarship (twice)
+
+## Research & Employment
+
+- Research Assistant, Southern University of Science and Technology, China
+Investigating the magnetic properties of Fe-Co alloys produced by metal injection molding(MIM)
+<br>
+Research Assistant, The Chinese University of Hong Kong, Shenzhen, China
+- Dynamic Path Planning and Motion Control of Microrobotic Swarms for Mobile Target Tracking
+<br>
+- Automatic Navigation of a Microrobotic Swarm for Tracking Multiple Mobile Targets
+<br>
 
 ## News and Updates
 
 Coming soon
-
-

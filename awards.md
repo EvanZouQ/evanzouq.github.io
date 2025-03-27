@@ -4,8 +4,6 @@ permalink: /awards/index.html
 title: Awards
 ---
 
-> Update: 20th Sep 2024
-
 ## Scholarships
 
 - June 2024：**KDD-24 Undergraduate Scholarship** ($1000)<br>Only 21 undergraduates are selected around the world

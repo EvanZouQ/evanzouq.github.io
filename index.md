@@ -14,12 +14,6 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ---
 
-## Research Interests
-
-Coming soon
-
----
-
 ## News and Updates
 
 Coming soon

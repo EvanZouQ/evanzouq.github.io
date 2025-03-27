@@ -8,9 +8,9 @@ title: Publications
 
 ## Journal Paper
 
-- Q. Zou, X. Liu and J. Yu*, 2023. Automatic Navigation of a Microrobotic Swarm for Tracking Multiple Mobile Targets. **IEEE Robotics and Automation Letters**, Vol. 9, Issue 10, 8858-8865, 2023. ([link](https://ieeexplore.ieee.org/abstract/document/10035475))
+- Q. Zou, X. Liu and J. Yu*, 2023. *Automatic Navigation of a Microrobotic Swarm for Tracking Multiple Mobile Targets*. ***IEEE Robotics and Automation Letters***, Vol. 9, Issue 10, 8858-8865, 2023. ([link](https://ieeexplore.ieee.org/abstract/document/10035475))
 
-- Q. Zou, X. Du, Y. Liu, H. Chen, Y. Wang and J. Yu*, Dynamic path planning and motion control of microrobotic swarms for mobile target tracking. **IEEE Transactions on Automation Science and Engineering**, Vol. 20, Issue 4, 2454-2468, 2022. ([link](https://ieeexplore.ieee.org/abstract/document/9899404))
+- Q. Zou, X. Du, Y. Liu, H. Chen, Y. Wang and J. Yu*, *Dynamic path planning and motion control of microrobotic swarms for mobile target tracking*. ***IEEE Transactions on Automation Science and Engineering***, Vol. 20, Issue 4, 2454-2468, 2022. ([link](https://ieeexplore.ieee.org/abstract/document/9899404))
 
 ---
 

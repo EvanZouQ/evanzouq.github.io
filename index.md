@@ -19,6 +19,8 @@ Nomination of The Stars of Self-improvement of Chinese College Students
 <br>
 National Scholarship (twice)
 
+---
+
 ## Research & Employment
 
 Research Assistant, Southern University of Science and Technology, China
@@ -26,9 +28,9 @@ Research Assistant, Southern University of Science and Technology, China
 
 Research Assistant, The Chinese University of Hong Kong, Shenzhen, China
 - Dynamic Path Planning and Motion Control of Microrobotic Swarms for Mobile Target Tracking
-
 - Automatic Navigation of a Microrobotic Swarm for Tracking Multiple Mobile Targets
 
+---
 
 ## News and Updates
 

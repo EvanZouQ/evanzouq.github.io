@@ -6,6 +6,7 @@ layout: page
 
 
 BEng in Mechanical Engineering, Hainan University, China
+<br>
 MSc in Sensor and Imaging Systems, University of Glasgow & University of Edinburgh, UK
 
 ---
@@ -24,7 +25,7 @@ National Scholarship (twice)
 <br>
 Investigating the magnetic properties of Fe-Co alloys produced by metal injection molding(MIM)
 <br>
-<br>
+
 - Research Assistant, The Chinese University of Hong Kong, Shenzhen, China
 <br>
 Dynamic Path Planning and Motion Control of Microrobotic Swarms for Mobile Target Tracking

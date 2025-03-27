@@ -21,16 +21,13 @@ National Scholarship (twice)
 
 ## Research & Employment
 
-- Research Assistant, Southern University of Science and Technology, China
-<br>
-Investigating the magnetic properties of Fe-Co alloys produced by metal injection molding(MIM)
-<br>
+Research Assistant, Southern University of Science and Technology, China
+- Investigating the magnetic properties of Fe-Co alloys produced by metal injection molding(MIM)
 
-- Research Assistant, The Chinese University of Hong Kong, Shenzhen, China
-<br>
-Dynamic Path Planning and Motion Control of Microrobotic Swarms for Mobile Target Tracking
-<br>
-Automatic Navigation of a Microrobotic Swarm for Tracking Multiple Mobile Targets
+Research Assistant, The Chinese University of Hong Kong, Shenzhen, China
+- Dynamic Path Planning and Motion Control of Microrobotic Swarms for Mobile Target Tracking
+
+- Automatic Navigation of a Microrobotic Swarm for Tracking Multiple Mobile Targets
 
 
 ## News and Updates

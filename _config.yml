@@ -12,7 +12,7 @@ owner:
   email: evanzouq@outlook.com
   cv: 
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  github: EvanZouQ
+  # github: EvanZouQ
   # scholar: 
   researchgate: https://www.researchgate.net/profile/Qian-Zou-15?ev=hdr_xprf
 
@@ -44,7 +44,6 @@ highlighter: rouge
 # markdown: kramdown
 # markdown: redcarpet
 # pygments: true
-
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title

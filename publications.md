@@ -22,7 +22,7 @@ title: Publications
 
 ## Book Chapters
 
-- Q. Zou, Y. Wang and J. Yu*, "Colloidal microrobotic swarms", in *Field-Driven Micro and Nanorobots for Biology and Medicine*, Springer, Cham, 2021, pp.179-209. ([link](https://link.springer.com/chapter/10.1007/978-3-030-80197-7_8))
+- Q. Zou, Y. Wang and J. Yu, "Colloidal microrobotic swarms", in *Field-Driven Micro and Nanorobots for Biology and Medicine*, Springer, Cham, 2021, pp.179-209. ([link](https://link.springer.com/chapter/10.1007/978-3-030-80197-7_8))
 
   <br>
 

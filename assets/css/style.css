@@ -569,7 +569,7 @@ header .navbar ul li a:hover {
 /* projects section starts */
 .projects {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: #e5ecfb;
 }
 .projects h2 {
   color: #fff;
@@ -643,7 +643,7 @@ header .navbar ul li a:hover {
 /* publications section starts */
 .publications {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: #e5ecfb;
 }
 .publications h2 {
   color: #fff;

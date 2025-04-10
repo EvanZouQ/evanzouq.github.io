@@ -497,13 +497,13 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .image {
   flex: 1 1 20rem;
-  width: 10%;
+  width: 50%;
 }
 .experiences .box-container .box img {
   object-fit: cover;
   position: relative;
-  width: 10%;
-  height: 10%;
+  width: 50%;
+  height: 50%;
 }
 .experiences .box-container .box .content {
   position: relative;
@@ -542,11 +542,11 @@ header .navbar ul li a:hover {
     width: 100%;
   }
   .experiences .box-container .box .image {
-    width: 10%;
-    height: 10rem;
+    width: 50%;
+    height: 15rem;
   }
   .experiences .box-container .box img {
-    width: 10%;
+    width: 50%;
   }
   .experiences .box-container .box .content {
     position: relative;

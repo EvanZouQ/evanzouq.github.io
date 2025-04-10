@@ -502,8 +502,8 @@ header .navbar ul li a:hover {
 .experiences .box-container .box img {
   object-fit: cover;
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  height: 10%;
 }
 .experiences .box-container .box .content {
   position: relative;
@@ -546,7 +546,7 @@ header .navbar ul li a:hover {
     height: 10rem;
   }
   .experiences .box-container .box img {
-    width: 100%;
+    width: 10%;
   }
   .experiences .box-container .box .content {
     position: relative;

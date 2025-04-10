@@ -497,7 +497,7 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .image {
   flex: 1 1 20rem;
-  width: 100%;
+  width: 10%;
 }
 .experiences .box-container .box img {
   object-fit: cover;
@@ -542,7 +542,7 @@ header .navbar ul li a:hover {
     width: 100%;
   }
   .experiences .box-container .box .image {
-    width: 100%;
+    width: 10%;
     height: 10rem;
   }
   .experiences .box-container .box img {

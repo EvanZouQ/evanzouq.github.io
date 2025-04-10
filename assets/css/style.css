@@ -579,7 +579,7 @@ header .navbar ul li a:hover {
 }
 .projects .container {
   background: rgba(0, 0, 22, 0.4);
-  color: #fff;
+  color: #020133;
   border-radius: 1rem;
   padding: 2rem;
   width: 90%;
@@ -646,7 +646,7 @@ header .navbar ul li a:hover {
   background: #e5ecfb;
 }
 .publications h2 {
-  color: #fff;
+  color: #020133;
   padding: 1rem;
 }
 .publications .heading span {

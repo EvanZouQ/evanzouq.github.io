@@ -79,20 +79,20 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-async function fetchData(type = "skills") {
+async function fetchData(type = "experiences") {
     let response
-    type === "skills" ?
-        response = await fetch("skills.json")
+    type === "experiences" ?
+        response = await fetch("experiences.json")
         :
         response = await fetch("./projects/projects.json")
     const data = await response.json();
     return data;
 }
 
-function showSkills(skills) {
-    let skillsContainer = document.getElementById("skillsContainer");
+function showExperiences(experiences) {
+    let experiencesContainer = document.getElementById("experiencesContainer");
     let skillHTML = "";
-    skills.forEach(skill => {
+    experiences.forEach(skill => {
         skillHTML += `
         <div class="bar">
               <div class="info">
@@ -101,7 +101,7 @@ function showSkills(skills) {
               </div>
             </div>`
     });
-    skillsContainer.innerHTML = skillHTML;
+    experiencesContainer.innerHTML = skillHTML;
 }
 
 function showProjects(projects) {
@@ -147,7 +147,7 @@ function showProjects(projects) {
 }
 
 fetchData().then(data => {
-    showSkills(data);
+    showExperiences.json(data);
 });
 
 fetchData("projects").then(data => {
@@ -232,9 +232,9 @@ srtop.reveal('.about .content .box-container', { delay: 200 });
 srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
 
-/* SCROLL SKILLS */
-srtop.reveal('.skills .container', { interval: 200 });
-srtop.reveal('.skills .container .bar', { delay: 400 });
+/* SCROLL experiences */
+srtop.reveal('.experiences .container', { interval: 200 });
+srtop.reveal('.experiences .container .bar', { delay: 400 });
 
 /* SCROLL EDUCATION */
 srtop.reveal('.education .box', { interval: 200 });

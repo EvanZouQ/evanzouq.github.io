@@ -458,100 +458,27 @@ header .navbar ul li a:hover {
 /* about media queries ends*/
 /* about section ends */
 
+
 /* experiences section starts */
 .experiences {
-  min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
-}
-.experiences h2 {
-  color: #fff;
-}
-.experiences .heading span {
-  color: rgb(255, 230, 0);
-}
-.experiences .container {
-  background: rgba(0, 0, 22, 0.4);
-  color: #fff;
-  border-radius: 1rem;
-  padding: 2rem;
-  width: 90%;
-  margin: auto;
-  margin-top: 2rem;
-}
-.experiences .container .row {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  flex-wrap: wrap;
-  gap: 1.8rem;
-}
-.experiences .container .bar {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
-  transition: 0.2s;
-}
-.experiences .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
-}
-.experiences .container .bar .info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-.experiences .container .bar .info i {
-  font-size: 4rem;
-}
-.experiences .container .bar .info span {
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: "Poppins";
-  margin-left: 0.5rem;
-}
-/* experiences media queries starts*/
-@media screen and (max-width: 600px) {
-  .experiences .container {
-    padding: 0;
-    margin: 0;
-  }
-  .experiences .container .row {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 1rem;
-    padding: 2rem 0.2rem 2rem 0.2rem;
-    gap: 1rem;
-  }
-  .experiences .container {
-    margin-top: 5px;
-    width: 100%;
-  }
-}
-/* experiences media queries ends*/
-/* experiences section ends */
-
-/* projects section starts */
-.projects {
   background: #e5ecfb;
   min-height: 80vh;
 }
-.projects .qoute {
+.experiences .qoute {
   font-size: 1.5rem;
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   margin-top: 0.5rem;
 }
-.projects .box-container {
+.experiences .box-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.projects .box-container .box {
+.experiences .box-container .box {
   display: flex;
   flex-direction: row;
   width: 80%;
@@ -564,21 +491,21 @@ header .navbar ul li a:hover {
   transition: 0.3s;
   background: rgb(252, 252, 252);
 }
-.projects .box-container .box:hover {
+.experiences .box-container .box:hover {
   transform: scale(1.03);
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
 }
-.projects .box-container .box .image {
+.experiences .box-container .box .image {
   flex: 1 1 20rem;
   width: 100%;
 }
-.projects .box-container .box img {
+.experiences .box-container .box img {
   object-fit: cover;
   position: relative;
   width: 100%;
   height: 100%;
 }
-.projects .box-container .box .content {
+.experiences .box-container .box .content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -586,7 +513,7 @@ header .navbar ul li a:hover {
   flex-wrap: wrap;
   flex: 1 1 70rem;
 }
-.projects .box-container .box .content h3 {
+.experiences .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #012970;
   padding: 0.5rem 0;
@@ -594,12 +521,12 @@ header .navbar ul li a:hover {
   text-align: left;
   margin-left: 1rem;
 }
-.projects .box-container .box .content p {
+.experiences .box-container .box .content p {
   font-size: 1.5rem;
   margin-left: 1rem;
   text-align: left;
 }
-.projects h4 {
+.experiences h4 {
   font-size: 2rem;
   color: rgb(34, 109, 0);
   text-align: left;
@@ -608,20 +535,20 @@ header .navbar ul li a:hover {
   font-weight: 700;
 }
 
-/* projects media queries starts*/
+/* experiences media queries starts*/
 @media screen and (max-width: 600px) {
-  .projects .box-container .box {
+  .experiences .box-container .box {
     flex-direction: column;
     width: 100%;
   }
-  .projects .box-container .box .image {
+  .experiences .box-container .box .image {
     width: 100%;
     height: 25rem;
   }
-  .projects .box-container .box img {
+  .experiences .box-container .box img {
     width: 100%;
   }
-  .projects .box-container .box .content {
+  .experiences .box-container .box .content {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -629,11 +556,85 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     flex: 0;
   }
-  .projects .btns {
+  .experiences .btns {
     margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     flex-wrap: wrap;
+  }
+}
+/* experiences media queries ends*/
+/* experiences section ends */
+
+/* projects section starts */
+.projects {
+  min-height: 90vh;
+  background: linear-gradient(to bottom, #57059e, #4a00e0);
+}
+.projects h2 {
+  color: #fff;
+}
+.projects .heading span {
+  color: rgb(255, 230, 0);
+}
+.projects .container {
+  background: rgba(0, 0, 22, 0.4);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.projects .container .row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  flex-wrap: wrap;
+  gap: 1.8rem;
+}
+.projects .container .bar {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 22, 0.9);
+  transition: 0.2s;
+}
+.projects .container .bar:hover {
+  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.projects .container .bar .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.projects .container .bar .info i {
+  font-size: 4rem;
+}
+.projects .container .bar .info span {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-left: 0.5rem;
+}
+/* projects media queries starts*/
+@media screen and (max-width: 600px) {
+  .projects .container {
+    padding: 0;
+    margin: 0;
+  }
+  .projects .container .row {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+  .projects .container {
+    margin-top: 5px;
+    width: 100%;
   }
 }
 /* projects media queries ends*/

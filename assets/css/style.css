@@ -346,8 +346,8 @@ header .navbar ul li a:hover {
     font-size: 2.2rem;
   }
 }
-/* hero media queries ends*/
-/* hero section end */
+/* home media queries ends*/
+/* home section end */
 
 /* about section starts */
 .about {
@@ -487,6 +487,7 @@ header .navbar ul li a:hover {
   z-index: -2;
 }
 .experiences .container {
+  display: grid;
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -611,6 +612,7 @@ header .navbar ul li a:hover {
     left: 31px;
   }
   .experiences .container {
+    display: grid;
     width: 100%;
     padding-left: 8rem;
     padding-right: 2rem;

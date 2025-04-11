@@ -337,11 +337,11 @@ header .navbar ul li a:hover {
     margin: 4rem 0;
   }
   .socials {
-    margin-top: 12rem;
+    margin-top: 6rem;
   }
   .home .image img {
-    margin-bottom: 6rem;
-    margin-right: 1rem;
+    margin-bottom: 8rem;
+    margin-right: -1rem;
   }
   .home .content p {
     font-size: 2.2rem;

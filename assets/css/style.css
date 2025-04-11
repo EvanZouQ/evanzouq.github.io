@@ -565,6 +565,7 @@ header .navbar ul li a:hover {
   border-radius: 6px;
 }
 .experiences .content .image {
+  text-align:center;
   width: auto;
   height: 10rem;
 }

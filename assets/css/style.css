@@ -356,7 +356,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
   .home .image img {
-    margin-bottom: 20rem;
+    margin-top: 2rem;
     margin-right: -1rem;
   }
   .home .content p {
@@ -1120,11 +1120,11 @@ header .navbar ul li a:hover {
 /* contact media queries starts*/
 @media screen and (max-width: 600px) {
   .contact .row {
-    padding: 0.5rem;
+    padding: 0rem;
     margin-bottom: 0.5rem;
   }
   .contact .row .content {
-    padding: 0.5rem;
+    padding: 0rem;
   }
   .contact .row .content .box-container {
     gap: 0;

@@ -445,10 +445,13 @@ header .navbar ul li a:hover {
 @media screen and (max-width: 600px) {
   .about .row .image {
     margin-top: 2rem;
+    width: auto;
+    height: 15rem;
   }
   .about .row .image img {
     margin: 0 auto;
-    width: 80%;
+    width: auto;
+    height: 15rem;
     mix-blend-mode: normal;
   }
   .about .row {

@@ -1078,7 +1078,7 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: rgb(255, 255, 255);
+  background: #e5ecfb;
 }
 .contact .row {
   display: flex;

@@ -348,8 +348,15 @@ header .navbar ul li a:hover {
   .socials {
     margin-top: 6rem;
   }
+  .home .content {
+  flex: 1 1 40rem;
+  margin-top: 4rem;
+  margin-left: 6rem;
+  padding-top: 1rem;
+  z-index: 1;
+}
   .home .image img {
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
     margin-right: -1rem;
   }
   .home .content p {

@@ -210,10 +210,10 @@ header .navbar ul li a:hover {
 .home .image {
   flex: 1 1 40rem;
   z-index: 1;
-  height: 70%;
 }
 .home .image img {
-  width: 50%;
+  width: auto;
+  height: 60%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -362,7 +362,7 @@ header .navbar ul li a:hover {
 }
 .about .row .image img {
   margin: 4rem;
-  width: 20rem;
+  width: 60%;;
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);

@@ -213,13 +213,13 @@ header .navbar ul li a:hover {
   flex: 1 1 40rem;
   z-index: 1;
   margin-top: 2rem;
-  margin-right: 3rem;
+  margin-right: 1rem;
   width: auto;
-  height: 35rem;
+  height: 30rem;
 }
 .home .image img {
   width: auto;
-  height: 35rem;
+  height: 30rem;
   margin-top: 2rem;
   margin-right: 3rem;
   border-radius: 50%;

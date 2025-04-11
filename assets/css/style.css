@@ -355,6 +355,10 @@ header .navbar ul li a:hover {
   padding-top: 1rem;
   z-index: 1;
 }
+  .home .image {
+    margin-top: 2rem;
+    margin-right: -1rem;
+}
   .home .image img {
     margin-top: 2rem;
     margin-right: -1rem;

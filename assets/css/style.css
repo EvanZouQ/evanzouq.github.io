@@ -1091,7 +1091,7 @@ header .navbar ul li a:hover {
 }
 .contact .row .content {
   flex: 1 1 45rem;
-  padding: 3rem;
+  padding: 1rem;
 }
 .contact .row .content h3 {
   color: rgb(27, 27, 27);

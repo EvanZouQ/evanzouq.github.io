@@ -557,13 +557,13 @@ header .navbar ul li a:hover {
 }
 .experiences .content .image {
   width: auto;
-  height: 50%;
+  height: 1rem;
 }
 .experiences .content img {
   object-fit: cover;
   position: relative;
   width: auto;
-  height: 50%;
+  height: 1rem;
 }
 .experiences .content .tag {
   font-size: 1.3rem;

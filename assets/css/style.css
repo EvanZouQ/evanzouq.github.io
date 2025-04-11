@@ -1086,7 +1086,7 @@ header .navbar ul li a:hover {
 .contact .row {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 .contact .row .content {
@@ -1124,7 +1124,7 @@ header .navbar ul li a:hover {
     margin-bottom: 0.5rem;
   }
   .contact .row .content {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .contact .row .content .box-container {
     gap: 0;

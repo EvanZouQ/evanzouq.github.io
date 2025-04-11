@@ -216,7 +216,8 @@ header .navbar ul li a:hover {
 .home .image img {
   width: auto;
   height: 35rem;
-  margin-right: 8rem;
+  margin-top: 1rem;
+  margin-right: 3rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -286,7 +287,7 @@ header .navbar ul li a:hover {
 }
 .socials .social-icons li {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 .social-icons a {
   font-size: 2rem;

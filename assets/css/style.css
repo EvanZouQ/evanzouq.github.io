@@ -566,7 +566,7 @@ header .navbar ul li a:hover {
 }
 .experiences .content {
   display: grid;
-  grid-template-columns: 20px 1fr;
+  grid-template-columns: 30px 1fr;
   background-color: #e5ecfb;
   justify-content: center;
   align-items: center;
@@ -593,8 +593,10 @@ header .navbar ul li a:hover {
   padding-left: 1.5rem;
 }
 .experiences .content .desc {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   padding-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 .experiences .content .desc h2 {
   font-size: 2rem;

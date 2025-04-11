@@ -1095,10 +1095,10 @@ header .navbar ul li a:hover {
 }
 .contact .row .content h3 {
   color: rgb(27, 27, 27);
-  font-size: 8rem;
+  font-size: 2.5rem;
 }
 .contact .row .content p {
-  font-size: 6rem;
+  font-size: 2rem;
   margin-top: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;

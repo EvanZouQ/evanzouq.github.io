@@ -56,6 +56,12 @@ html::-webkit-scrollbar-thumb {
 .loader-container.fade-out {
   top: -120%;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* pre loader end */
 
 /* navbar starts */

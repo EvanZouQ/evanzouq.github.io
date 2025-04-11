@@ -565,15 +565,19 @@ header .navbar ul li a:hover {
   border-radius: 6px;
 }
 .experiences .content .image {
-  text-align:center;
+  display: flex;
   width: auto;
   height: 10rem;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
 }
 .experiences .content img {
   object-fit: cover;
-  text-align:center;
-  width: auto;
-  height: 10rem;
+  max-width: 100%; 
+  max-height: 100%; 
+  width: auto;      
+  height: auto;     
 }
 .experiences .content .tag {
   font-size: 1.3rem;

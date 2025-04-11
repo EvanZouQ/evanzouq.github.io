@@ -365,12 +365,12 @@ header .navbar ul li a:hover {
   text-align: center;
   flex: 1 1 35rem;
   width: auto;
-  height: 28rem;
+  height: 26rem;
 }
 .about .row .image img {
   margin: 4rem;
   width: auto;
-  height: 28rem;
+  height: 26rem;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;

@@ -550,10 +550,20 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .experiences .content {
-  display: grid;
+  display: flex;
   background-color: #e5ecfb;
   position: relative;
   border-radius: 6px;
+}
+.experiences .content .image {
+  flex: 1 1 20rem;
+  width: 100%;
+}
+.experiences .content img {
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 .experiences .content .tag {
   font-size: 1.3rem;

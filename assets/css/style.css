@@ -568,7 +568,8 @@ header .navbar ul li a:hover {
   display: grid;
   grid-template-columns: 20px 1fr;
   background-color: #e5ecfb;
-  position: relative;
+  justify-content: center;
+  align-items: center;
   border-radius: 6px;
 }
 .experiences .content .image {

@@ -531,7 +531,7 @@ header .navbar ul li a:hover {
   flex: 1 1 70rem;
 }
 .experiences .box-container .box .content h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #012970;
   padding: 0.5rem 0;
   font-weight: 600;
@@ -539,13 +539,13 @@ header .navbar ul li a:hover {
   margin-left: 1rem;
 }
 .experiences .box-container .box .content p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 1rem;
   text-align: left;
   color: rgb(34, 109, 0);
 }
 .experiences h4 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: left;
   margin: 1rem;
   font-family: "Nunito", sans-serif;
@@ -659,7 +659,7 @@ header .navbar ul li a:hover {
   text-align: left;
 }
 .projects h4 {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   color: rgb(34, 109, 0);
   text-align: left;
   margin: 1rem;

@@ -216,7 +216,7 @@ header .navbar ul li a:hover {
 .home .image img {
   width: auto;
   height: 35rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
   margin-right: 3rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -336,7 +336,8 @@ header .navbar ul li a:hover {
     margin-top: 12rem;
   }
   .home .image img {
-    margin-top: -12rem;
+    margin-top: -16rem;
+    margin-right: -2rem;
   }
   .home .content p {
     font-size: 2.2rem;

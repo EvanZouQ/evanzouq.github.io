@@ -362,7 +362,6 @@ header .navbar ul li a:hover {
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
-  padding: 2rem;
 }
 .about .row .image {
   text-align: center;

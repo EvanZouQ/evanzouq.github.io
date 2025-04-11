@@ -491,7 +491,6 @@ header .navbar ul li a:hover {
   z-index: -2;
 }
 .experiences .container {
-  display: grid;
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -551,6 +550,7 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .experiences .content {
+  display: grid;
   background-color: #e5ecfb;
   position: relative;
   border-radius: 6px;

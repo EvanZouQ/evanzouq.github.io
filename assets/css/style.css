@@ -563,7 +563,7 @@ header .navbar ul li a:hover {
   object-fit: cover;
   position: relative;
   width: auto;
-  height: 1rem;
+  height: 5rem;
 }
 .experiences .content .tag {
   font-size: 1.3rem;

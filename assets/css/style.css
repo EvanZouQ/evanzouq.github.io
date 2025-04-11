@@ -550,13 +550,13 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .experiences .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #e5ecfb;
   position: relative;
   border-radius: 6px;
 }
 .experiences .content .image {
-  flex: 1 1 20rem;
   width: 100%;
 }
 .experiences .content img {

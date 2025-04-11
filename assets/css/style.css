@@ -478,10 +478,10 @@ header .navbar ul li a:hover {
   }
   .about .row {
     padding: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
   }
   .about .row .content {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .about .row .content .box-container {
     gap: 0;
@@ -1094,7 +1094,7 @@ header .navbar ul li a:hover {
 }
 .contact .row .content {
   flex: 1 1 45rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .contact .row .content h3 {
   color: rgb(27, 27, 27);
@@ -1110,7 +1110,7 @@ header .navbar ul li a:hover {
 .contact .row .content .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 0.5rem;
   font-family: "Nunito";
   font-weight: 600;
 }

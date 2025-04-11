@@ -79,30 +79,6 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-async function fetchData(type = "experiences") {
-    let response
-    type === "experiences" ?
-        response = await fetch("experiences.json")
-        :
-        response = await fetch("./projects/projects.json")
-    const data = await response.json();
-    return data;
-}
-
-function showExperiences(experiences) {
-    let experiencesContainer = document.getElementById("experiencesContainer");
-    let skillHTML = "";
-    experiences.forEach(skill => {
-        skillHTML += `
-        <div class="bar">
-              <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`
-    });
-    experiencesContainer.innerHTML = skillHTML;
-}
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
@@ -145,10 +121,6 @@ function showProjects(projects) {
     srtop.reveal('.work .box', { interval: 200 });
 
 }
-
-fetchData().then(data => {
-    showExperiences.json(data);
-});
 
 fetchData("projects").then(data => {
     showProjects(data);
@@ -233,8 +205,8 @@ srtop.reveal('.about .content .resumebtn', { delay: 50 });
 
 
 /* SCROLL experiences */
-srtop.reveal('.experiences .container', { interval: 50 });
-srtop.reveal('.experiences .container .bar', { delay: 50 });
+srtop.reveal('.experiences .timeline', { delay: 50 });
+srtop.reveal('.experiences .timeline .container', { interval: 50 });
 
 /* SCROLL Projects */
 srtop.reveal('.projects .box', { interval: 50 });

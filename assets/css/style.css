@@ -364,12 +364,12 @@ header .navbar ul li a:hover {
   text-align: center;
   flex: 1 1 35rem;
   width: auto;
-  height: 25rem;
+  height: 28rem;
 }
 .about .row .image img {
   margin: 4rem;
   width: auto;
-  height: 25rem;
+  height: 28rem;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;
@@ -446,12 +446,12 @@ header .navbar ul li a:hover {
   .about .row .image {
     margin-top: 2rem;
     width: auto;
-    height: 15rem;
+    height: 20rem;
   }
   .about .row .image img {
     margin: 0 auto;
     width: auto;
-    height: 15rem;
+    height: 20rem;
     mix-blend-mode: normal;
   }
   .about .row {

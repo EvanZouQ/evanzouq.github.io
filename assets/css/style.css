@@ -559,7 +559,7 @@ header .navbar ul li a:hover {
 }
 .experiences .content {
   display: grid;
-  grid-template-columns: 10px 1fr;
+  grid-template-columns: 15px 1fr;
   background-color: #e5ecfb;
   position: relative;
   border-radius: 6px;

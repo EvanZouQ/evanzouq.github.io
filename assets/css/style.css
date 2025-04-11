@@ -1116,6 +1116,7 @@ header .navbar ul li a:hover {
 /* contact media queries starts*/
 @media screen and (max-width: 600px) {
   .contact .row {
+    max-height: 20vh;
     padding: 0rem;
     margin-bottom: 0.5rem;
     gap: 0; 
@@ -1133,7 +1134,7 @@ header .navbar ul li a:hover {
 
 /* footer section starts */
 .footer {
-  min-height: auto;
+  min-height: 80vh;;
   padding-top: 0;
   background: rgb(0, 1, 43);
 }

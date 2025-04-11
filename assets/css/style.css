@@ -1086,25 +1086,6 @@ header .navbar ul li a:hover {
   gap: 2rem;
   flex-wrap: wrap;
 }
-.contact .row .image {
-  text-align: center;
-  flex: 1 1 35rem;
-  width: auto;
-  height: 26rem;
-}
-.contact .row .image img {
-  margin: 4rem;
-  width: auto;
-  height: 26rem;
-  border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.contact .row .image img:hover {
-  mix-blend-mode: normal;
-}
 .contact .row .content {
   flex: 1 1 45rem;
   padding: 3rem;
@@ -1163,20 +1144,9 @@ header .navbar ul li a:hover {
 }
 /* contact media queries starts*/
 @media screen and (max-width: 600px) {
-  .contact .row .image {
-    margin-top: 2rem;
-    width: auto;
-    height: 20rem;
-  }
-  .contact .row .image img {
-    margin: 0 auto;
-    width: auto;
-    height: 20rem;
-    mix-blend-mode: normal;
-  }
   .contact .row {
     padding: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
   .contact .row .content {
     padding: 1rem;

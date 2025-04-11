@@ -482,11 +482,12 @@ header .navbar ul li a:hover {
   margin-top: 0.5rem;
 }
 .experiences .box-container {
-  display: flex;
+  display: grid; 
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem; 
 }
 .experiences .box-container .box {
   display: flex;

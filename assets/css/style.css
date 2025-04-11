@@ -512,7 +512,7 @@ header .navbar ul li a:hover {
   top: 5px;
   left: 5px;
   width: auto;
-  height: 10rem;
+  height: 7rem;
 }
 .experiences .box-container .box img {
   object-fit: cover;
@@ -520,7 +520,7 @@ header .navbar ul li a:hover {
   top: 5px;
   left: 5px;
   width: auto;
-  height: 10rem;;
+  height: 7rem;;
 }
 .experiences .box-container .box .content {
   position: relative;
@@ -563,14 +563,14 @@ header .navbar ul li a:hover {
     top: 5px;
     left: 5px;
     width: auto;
-    height: 10rem;
+    height: 7rem;
   }
   .experiences .box-container .box img {
     position: relative;
     top: 5px;
     left: 5px;
     width: auto;
-    height: 8rem;
+    height: 7rem;
   }
   .experiences .box-container .box .content {
     position: relative;

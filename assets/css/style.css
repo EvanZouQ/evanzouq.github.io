@@ -840,7 +840,7 @@ header .navbar ul li a:hover {
 }
 /*circles on timeline*/
 .achievements .container::after {
-  content: "\f0b1";
+  content: "\f559";
   position: absolute;
   width: 25px;
   height: 25px;

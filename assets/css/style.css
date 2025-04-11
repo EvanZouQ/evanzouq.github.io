@@ -492,7 +492,7 @@ header .navbar ul li a:hover {
 .experiences .box-container .box {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 80%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -613,7 +613,7 @@ header .navbar ul li a:hover {
 .projects .box-container .box {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 80%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -729,7 +729,7 @@ header .navbar ul li a:hover {
 .publications .box-container .box {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 80%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;

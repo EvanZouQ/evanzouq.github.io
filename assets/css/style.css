@@ -569,7 +569,7 @@ header .navbar ul li a:hover {
 
 /* projects section starts */
 .projects {
-  background: #e5ecfb;
+  background: rgb(252, 252, 252);
   min-height: 80vh;
 }
 .projects .qoute {
@@ -597,7 +597,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: rgb(252, 252, 252);
+  background: #e5ecfb;
 }
 .projects .box-container .box:hover {
   transform: scale(1.03);

@@ -178,7 +178,7 @@ header .navbar ul li a:hover {
 }
 /* hamburger icon ends */
 
-/* hero section starts*/
+/* home section starts*/
 .home {
   position: relative;
   display: flex;
@@ -216,7 +216,7 @@ header .navbar ul li a:hover {
 .home .image img {
   width: auto;
   height: 35rem;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   margin-right: 3rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -508,7 +508,7 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box img {
   object-fit: cover;
-  position: center;
+  position: relative;
   width: auto;
   height: 10rem;;
 }
@@ -532,10 +532,10 @@ header .navbar ul li a:hover {
   font-size: 1.5rem;
   margin-left: 1rem;
   text-align: left;
+  color: rgb(34, 109, 0);
 }
 .experiences h4 {
   font-size: 1.2rem;
-  color: rgb(34, 109, 0);
   text-align: left;
   margin: 1rem;
   font-family: "Nunito", sans-serif;
@@ -549,14 +549,14 @@ header .navbar ul li a:hover {
     width: 100%;
   }
   .experiences .box-container .box .image {
-    position: center;
+    position: relative;
     width: auto;
     height: 10rem;
   }
   .experiences .box-container .box img {
-    position: center;
+    position: relative;
     width: auto;
-    height: 10rem;
+    height: 8rem;
   }
   .experiences .box-container .box .content {
     position: relative;

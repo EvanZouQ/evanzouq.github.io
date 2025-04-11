@@ -1125,12 +1125,14 @@ header .navbar ul li a:hover {
   .contact .row {
     padding: 0rem;
     margin-bottom: 0.5rem;
+    gap: 0; 
   }
   .contact .row .content {
+    flex-basis: 100%;
     padding: 0rem;
   }
   .contact .row .content .box-container {
-    gap: 0;
+    gap: 0.5rem;
   }
 }
 /* contact media queries ends*/

@@ -574,6 +574,10 @@ header .navbar ul li a:hover {
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
+.experiences .content .desc h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
 .experiences .content .desc h3 {
   font-size: 1.5rem;
   font-weight: 600;

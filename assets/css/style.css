@@ -470,124 +470,174 @@ header .navbar ul li a:hover {
 
 
 /* experiences section starts */
-.experiences {
-  background: #e5ecfb;
-  min-height: 80vh;
+.experiences .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.experiences .qoute {
-  font-size: 1.5rem;
+.experiences .timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background: #020133;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -2;
+}
+.experiences .container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+/*circles on timeline*/
+.experiences .container::after {
+  content: "\f559";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid #ff9f55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 100;
+  font-size: 1.89rem;
   text-align: center;
-  font-family: "Nunito", sans-serif;
   font-weight: 600;
-  margin-top: 0.5rem;
+  color: #02094b;
+  font-family: "Font Awesome\ 5 Free";
 }
-.experiences .box-container {
-  display: grid; 
-  flex-wrap: wrap;
+.experiences .left {
+  left: 0;
+}
+.experiences .right {
+  left: 50%;
+}
+/* arrows pointing right */
+.experiences .left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #f68c09;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #f68c09;
+}
+/* arrows pointing left  */
+.experiences .right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #f68c09;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #f68c09 transparent transparent;
+}
+.experiences .right::after {
+  left: -16px;
+}
+.experiences .content {
+  background-color: #e5ecfb;
+  position: relative;
+  border-radius: 6px;
+}
+.experiences .content .tag {
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+}
+.experiences .content .desc {
+  margin-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+.experiences .content .desc h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.experiences .content .desc p {
+  font-size: 1.2rem;
+}
+/* view all button */
+.morebtn {
+  display: flex;
   justify-content: center;
-  align-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem; 
 }
-.experiences .box-container .box {
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+.morebtn .btn {
+  position: relative;
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.5s;
+  color: #fff;
+  background: #2506ad;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   text-align: center;
-  position: relative;
-  margin-top: 2rem;
-  overflow: hidden;
-  transition: 0.3s;
-  background: rgb(252, 252, 252);
 }
-.experiences .box-container .box:hover {
-  transform: scale(1.03);
-  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
-}
-.experiences .box-container .box .image {
-  flex: 1 1 20rem;
-  position: relative;
-  top: 5px;
-  left: 5px;
-  width: auto;
-  height: 7rem;
-}
-.experiences .box-container .box img {
-  object-fit: cover;
-  position: relative;
-  top: 5px;
-  left: 5px;
-  width: auto;
-  height: 7rem;;
-}
-.experiences .box-container .box .content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  flex-wrap: wrap;
-  flex: 1 1 70rem;
-}
-.experiences .box-container .box .content h3 {
-  font-size: 2.5rem;
-  color: #012970;
-  padding: 0.5rem 0;
+.morebtn .btn span {
   font-weight: 600;
-  text-align: left;
-  margin-left: 1rem;
-}
-.experiences .box-container .box .content p {
-  font-size: 2rem;
-  margin-left: 1rem;
-  text-align: left;
-  color: rgb(34, 109, 0);
-}
-.experiences h4 {
-  font-size: 1.5rem;
-  text-align: left;
-  margin: 1rem;
+  font-size: 1.7rem;
   font-family: "Nunito", sans-serif;
-  font-weight: 700;
+}
+.morebtn .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.morebtn .btn:hover {
+  background: #1a047e;
+}
+.morebtn .btn:hover i {
+  transform: translateX(5px);
 }
 
-/* experiences media queries starts*/
+/* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  .experiences .box-container .box {
-    flex-direction: column;
-    width: 100%;
+  .experiences {
+    min-height: 80vh;
   }
-  .experiences .box-container .box .image {
-    position: relative;
-    top: 5px;
-    left: 5px;
-    width: auto;
-    height: 7rem;
-  }
-  .experiences .box-container .box img {
-    position: relative;
-    top: 5px;
-    left: 5px;
-    width: auto;
-    height: 7rem;
-  }
-  .experiences .box-container .box .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    flex-wrap: wrap;
-    flex: 0;
-  }
-  .experiences .btns {
+  .experiences .timeline {
     margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    flex-wrap: wrap;
+  }
+  .experiences .timeline::after {
+    left: 31px;
+  }
+  .experiences .container {
+    width: 100%;
+    padding-left: 8rem;
+    padding-right: 2rem;
+  }
+  .experiences .container::after {
+    font-size: 2.2rem;
+  }
+  .experiences .container::before {
+    left: 61px;
+    border: medium solid #f68c09;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #f68c09 transparent transparent;
+  }
+  .experiences .left::after {
+    left: 15px;
+  }
+  .experiences .right::after {
+    left: 15px;
+  }
+  .experiences .right {
+    left: 0%;
+  }
+  .morebtn {
+    margin-top: 3rem;
   }
 }
-/* experiences media queries ends*/
+/* experiences media queries ends */
 /* experiences section ends */
 
 

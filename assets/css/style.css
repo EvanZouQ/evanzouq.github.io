@@ -502,9 +502,9 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box img {
   object-fit: cover;
-  position: relative;
-  width: 50%;
-  height: 50%;
+  position: center;
+  width: 60%;
+  height: auto;
 }
 .experiences .box-container .box .content {
   position: relative;
@@ -623,7 +623,7 @@ header .navbar ul li a:hover {
   flex: 1 1 70rem;
 }
 .projects .box-container .box .content h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #012970;
   padding: 0.5rem 0;
   font-weight: 600;
@@ -636,7 +636,7 @@ header .navbar ul li a:hover {
   text-align: left;
 }
 .projects h4 {
-  font-size: 2rem;
+  font-size: 1rem;
   color: rgb(34, 109, 0);
   text-align: left;
   margin: 1rem;

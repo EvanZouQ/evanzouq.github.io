@@ -543,7 +543,7 @@ header .navbar ul li a:hover {
   }
   .experiences .box-container .box .image {
     width: 50%;
-    height: 15rem;
+    height: 20rem;
   }
   .experiences .box-container .box img {
     width: 50%;
@@ -640,6 +640,7 @@ header .navbar ul li a:hover {
 /* projects media queries ends*/
 /* projects section ends */
 
+
 /* publications section starts */
 .publications {
   /* background: #010124; */
@@ -647,7 +648,7 @@ header .navbar ul li a:hover {
 }
 .publications h2 {
   color: #020133;
-  padding: 2.5rem;
+  padding: 5rem;
 }
 .publications .heading span {
   color: rgb(255, 230, 0);

@@ -559,7 +559,7 @@ header .navbar ul li a:hover {
 }
 .experiences .content {
   display: grid;
-  grid-template-columns: 5px 1fr;
+  grid-template-columns: 1fr 3fr;
   background-color: #e5ecfb;
   position: relative;
   border-radius: 6px;
@@ -571,8 +571,8 @@ header .navbar ul li a:hover {
 .experiences .content img {
   object-fit: cover;
   position: relative;
-  width: auto;
-  height: 5rem;
+  width: 5rem;
+  height: auto;
 }
 .experiences .content .tag {
   font-size: 1.3rem;

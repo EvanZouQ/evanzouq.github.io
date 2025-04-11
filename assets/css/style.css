@@ -563,7 +563,7 @@ header .navbar ul li a:hover {
 }
 .experiences .content .image {
   width: auto;
-  height: 1rem;
+  height: 10rem;
 }
 .experiences .content img {
   object-fit: cover;

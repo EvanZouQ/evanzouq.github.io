@@ -222,7 +222,7 @@ header .navbar ul li a:hover {
 .home .image img {
   width: auto;
   height: 30rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-right: 3rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -303,6 +303,7 @@ header .navbar ul li a:hover {
   width: 44px;
   height: 44px;
   text-align: center;
+  margin-top: 8px;
   margin-right: 8px;
   border-radius: 100%;
   -webkit-transition: all 0.2s linear;
@@ -314,21 +315,6 @@ header .navbar ul li a:hover {
 .social-icons a:hover {
   color: #fff;
   background-color: #0685da;
-}
-.social-icons a.github:hover {
-  background-color: #0e0e0e;
-}
-.social-icons a.twitter:hover {
-  background-color: #00aced;
-}
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
-}
-.social-icons a.dev:hover {
-  background-color: #070707;
-}
-.social-icons a.instagram:hover {
-  background-color: #ee00da;
 }
 /* social icons end */
 

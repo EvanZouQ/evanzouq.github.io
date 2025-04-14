@@ -186,7 +186,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  max-height: 80vh;
+  max-height: 90vh;
   align-items: center;
 }
 .home #particles-js {
@@ -334,11 +334,11 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
   .home .image {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: -1rem;
 }
   .home .image img {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: -1rem;
   }
   .home .content p {

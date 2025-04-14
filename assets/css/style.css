@@ -186,7 +186,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  min-height: 100vh;
+  max-height: 80vh;
   align-items: center;
 }
 .home #particles-js {
@@ -1127,7 +1127,7 @@ header .navbar ul li a:hover {
 
 /* footer section starts */
 .footer {
-  min-height: 80vh;;
+  max-height: 60vh;
   padding-top: 0;
   background: rgb(0, 1, 43);
 }

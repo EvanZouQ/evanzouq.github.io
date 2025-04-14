@@ -284,7 +284,7 @@ header .navbar ul li a:hover {
 /* social icons start */
 .socials {
   position: relative;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .socials .social-icons {
   padding-left: 0;
@@ -324,7 +324,7 @@ header .navbar ul li a:hover {
     margin: 4rem 0;
   }
   .socials {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
   .home .content {
   flex: 1 1 40rem;

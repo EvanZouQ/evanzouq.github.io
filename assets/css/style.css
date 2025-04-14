@@ -725,13 +725,13 @@ header .navbar ul li a:hover {
   color: #012970;
   padding: 0.5rem 0;
   font-weight: 600;
-  text-align: justify;
+  text-align: left;
   margin-left: 1rem;
 }
 .projects .box-container .box .content p {
   font-size: 1.5rem;
   margin-left: 1rem;
-  text-align: justify;
+  text-align: left;
 }
 .projects h4 {
   font-size: 1.35rem;

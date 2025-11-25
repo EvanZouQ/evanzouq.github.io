@@ -1,5 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+/* --- CSS VARIABLES & FONTS --- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+:root {
+  /* 配色方案：Modern Academic Blue */
+  --primary: #4361ee;
+  --secondary: #3f37c9;
+  --accent: #7209b7;
+  --text-dark: #1e293b;
+  --text-gray: #64748b;
+  --bg-light: #f8fafc;
+  --bg-white: #ffffff;
+  --gradient-main: linear-gradient(135deg, #4361ee 10%, #3f37c9 100%);
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --border-radius: 1rem;
+}
 
 * {
   margin: 0;
@@ -8,45 +24,46 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: none;
+  text-transform: none; /* 保持原样，视需求可改 capitalize */
   transition: all 0.2s linear;
 }
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
 body {
-  background: #f7f7f7;
+  background: var(--bg-light);
   font-family: "Poppins", sans-serif;
+  color: var(--text-dark);
 }
 
 *::selection {
-  background: #2b3dda;
+  background: var(--primary);
   color: #fff;
 }
 
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-}
+/* Scrollbar styling */
 html::-webkit-scrollbar {
   width: 0.8rem;
 }
 html::-webkit-scrollbar-track {
-  background: rgb(235, 202, 245);
+  background: #e2e8f0;
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: var(--primary);
+  border-radius: 1rem;
 }
 
-/* pre loader start */
+/* --- PRE LOADER --- */
 .loader-container {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 10000;
-  background: #e6eff1;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,9 +73,8 @@ html::-webkit-scrollbar-thumb {
 .loader-container.fade-out {
   top: -120%;
 }
-/* pre loader end */
 
-/* navbar starts */
+/* --- NAVBAR --- */
 header {
   position: fixed;
   top: 0;
@@ -68,38 +84,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.7rem 10%;
-  height: 6.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+  padding: 1.5rem 9%;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-sm);
 }
-section {
-  /* min-height: 100vh; */ 
-  padding: 2rem 9%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-.heading {
-  font-size: 3.5rem;
-  color: rgb(32, 32, 32);
-  font-weight: 800;
-  text-align: center;
-}
-.heading span {
-  color: rgb(115, 3, 167);
-}
+
 header .logo {
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 800;
-  text-decoration: none;
-  color: #0e2431;
-}
-header .logo i {
-  font-size: 2.2rem;
+  color: var(--text-dark);
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: var(--primary);
 }
+
 header .navbar ul {
   list-style: none;
   display: flex;
@@ -107,1317 +106,329 @@ header .navbar ul {
   align-items: center;
 }
 header .navbar li {
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 header .navbar ul li a {
-  font-size: 1.57rem;
-  color: #0e2431;
+  font-size: 1.6rem;
+  color: var(--text-dark);
   font-weight: 600;
-  text-decoration: none;
-  letter-spacing: 0.04rem;
   transition: 0.2s;
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
-  padding: 0.5rem 0;
+  color: var(--primary);
+  /* border-bottom: 0.2rem solid var(--primary); */ 
+  /* 移除下划线，改用颜色强调，更现代 */
 }
-/* navbar ends */
 
-/* hamburger icon starts*/
+/* Hamburger Icon */
 #menu {
-  font-size: 3rem;
+  font-size: 2.5rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: var(--text-dark);
   display: none;
 }
+
+@media (max-width: 991px) { /* Tablet & Mobile */
+  header {
+    padding: 1.5rem 4%;
+  }
+  section {
+    padding: 2rem 4%;
+  }
+}
+
 @media (max-width: 768px) {
   #menu {
     display: block;
   }
   header .navbar {
     position: fixed;
-    top: 6.5rem;
+    top: 6rem;
     right: -120%;
     width: 75%;
-    height: 100%;
+    height: 100vh;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
-  }
-  header .navbar ul {
-    flex-flow: column;
-    padding: 1rem;
-  }
-  header .navbar ul li {
-    text-align: center;
-    width: 100%;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    width: 26rem;
-  }
-  header .navbar ul li a {
-    display: block;
-    padding: 1rem;
-    text-align: left;
-    color: #fff;
-    font-size: 2rem;
-  }
-  header .navbar ul li a.active,
-  header .navbar ul li a:hover {
-    padding: 1rem;
-    color: #fff;
-    border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
-  }
-  .fa-times {
-    transform: rotate(180deg);
+    background-color: #fff;
+    border-left: 1px solid #e2e8f0;
   }
   header .navbar.nav-toggle {
     right: 0;
   }
+  header .navbar ul {
+    flex-flow: column;
+    padding: 2rem;
+  }
+  header .navbar ul li {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+  header .navbar ul li a {
+    display: block;
+    font-size: 2rem;
+    color: var(--text-dark);
+  }
+  header .navbar ul li a:hover,
+  header .navbar ul li a.active {
+    color: var(--primary);
+  }
+  .fa-times {
+    transform: rotate(180deg);
+  }
 }
-/* hamburger icon ends */
 
-/* home section starts*/
+/* --- COMMON SECTIONS --- */
+section {
+  padding: 6rem 9%; /* 增加上下间距，呼吸感更强 */
+  min-height: auto;
+}
+
+.heading {
+  font-size: 3.5rem;
+  color: var(--text-dark);
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.heading span {
+  color: var(--primary);
+}
+
+/* --- HOME SECTION (修复布局版) --- */
 .home {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  min-height: 90vh;
+  gap: 2rem;
+  min-height: 100vh; /* 允许自动撑开高度 */
   align-items: center;
-  justify-content: center;
+  justify-content: center; /* 居中对齐，关键 */
+  padding-top: 8rem; /* 避开 Navbar */
+  background: var(--bg-light);
 }
+
 .home #particles-js {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  top: 0; left: 0;
+  height: 100%; width: 100%;
 }
-.home::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
+
 .home .content {
-  flex: 1 1 35rem;
-  margin-top: 4rem;
-  margin-left: 2rem;
-  padding-top: 1rem;
+  flex: 1 1 45rem; /* 基础宽度 */
   z-index: 1;
+  /* 移除巨大的左边距，改为 Flex 自动控制 */
+  padding: 2rem;
 }
+
 .home .image {
-  flex: 1 1 35rem;
+  flex: 1 1 35rem; /* 基础宽度，确保半屏时能换行 */
   z-index: 1;
-  margin-top: 2rem;
-  margin-left: 2rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
+
 .home .image img {
   width: 100%;
-  max-width: 35rem; 
-  height: auto; 
-  margin-top: 1rem;
-  margin-right: 0;
+  max-width: 35rem; /* 限制图片最大宽度 */
+  height: auto;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow-md);
   cursor: pointer;
+  transition: 0.4s;
+  border: 5px solid rgba(255,255,255,0.5); /* 增加白色边框 */
 }
+
 .home .image img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(67, 97, 238, 0.4);
+  transform: scale(1.02);
 }
+
 .home .content h2 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 800;
-  color: #002057;
+  color: var(--text-dark);
+  line-height: 1.1;
 }
 .home .content h2 span {
-  font-size: 5rem;
-  font-weight: 800;
-  color: #ff7b00;
+  color: var(--primary);
 }
 .home .content p {
-  font-size: 2.5rem;
-  color: #000;
-  font-weight: 600;
+  font-size: 2.2rem;
+  color: var(--text-gray);
+  font-weight: 500;
   padding: 1rem 0;
 }
 .home .content p span {
-  font-size: 2.5rem;
-  color: rgb(148, 8, 8);
-  font-weight: 600;
-  padding: 1rem 0;
-}
-.home .btn {
-  margin-top: 1rem;
-  position: absolute;
-  line-height: 0;
-  padding: 1.6rem 3rem;
-  border-radius: 4em;
-  transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
-  font-family: "Nunito", sans-serif;
-}
-.home .btn span {
+  color: var(--accent); /* 强调色 */
   font-weight: 700;
-  font-size: 1.7rem;
-  letter-spacing: 0.1rem;
 }
-.home .btn i {
-  margin-left: 0.3rem;
-  font-size: 1.5rem;
-  transition: 0.3s;
-}
-.home .btn:hover {
-  background: #1a047e;
-}
-.home .btn:hover i {
-  transform: translateX(5px);
-}
-/* social icons start */
+
+/* Social Icons */
 .socials {
-  position: relative;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
-.socials .social-icons {
-  padding-left: 0;
-  margin-bottom: 1rem;
+.social-icons {
   list-style: none;
-}
-.socials .social-icons li {
-  display: inline-block;
+  display: flex;
+  gap: 1.5rem;
 }
 .social-icons a {
   font-size: 2rem;
-  display: inline-block;
-  line-height: 44px;
-  color: #ffffff;
-  background-color: #09011b;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  margin-top: 8px;
-  margin-right: 8px;
-  border-radius: 100%;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-.social-icons a:active,
-.social-icons a:focus,
-.social-icons a:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
-  background-color: #0685da;
-}
-/* social icons end */
-
-/* hero media queries starts */
-/* 将 450px 改为 991px，以覆盖平板和电脑分屏（半屏）的情况 */
-@media (max-width: 991px) {
-  
-  /* 【核心修复代码】 */
-  .home {
-    /* 取消最大高度限制，防止内容溢出覆盖到下一节 */
-    max-height: unset; 
-    /* 让高度自动适应内容（文字+图片的高度） */
-    height: auto; 
-    /* 底部增加一些空间，防止图片紧贴着下一节 */
-    padding-bottom: 5rem; 
-  }
-
-  /* 下面是其他的调整，保持原样或微调 */
-  .home .btn {
-    margin: 2rem 0; /* 稍微减小按钮边距 */
-  }
-  
-  .socials {
-    margin-top: 2rem;
-  }
-  
-  .home .content {
-    /* 修改 flex-basis 为 auto，允许内容自适应宽度 */
-    flex: 1 1 auto; 
-    margin-top: 8rem; /* 增加顶部距离，避开导航栏 */
-    margin-left: 0;   /* 半屏模式下，通常居中或取消大左边距 */
-    padding-top: 1rem;
-    z-index: 1;
-    /* 如果你想让文字在半屏时居中，取消下面这行的注释 */
-    /* text-align: center; */
-  }
-
-  /* 让图片容器宽度自适应并居中 */
-  .home .image {
-    margin-top: 2rem;
-    margin-right: 0;
-    margin-left: 0;
-    text-align: center; /* 确保图片居中 */
-    /* 确保容器高度不会被写死 */
-    height: auto; 
-    flex: 1 1 auto;
-  }
-
-  .home .image img {
-    margin-top: 1rem;
-    margin-right: 0;
-    /* 确保图片本身不会过大 */
-    max-width: 80%; 
-    height: auto; /* 保持比例 */
-  }
-
-  .home .content p {
-    font-size: 2.2rem;
-  }
-  
-  .home .content p span {
-    font-size: 2.2rem;
-  }
-  
-  /* 修复社交图标在居中时的显示 */
-  .social-icons {
-    display: flex;
-    justify-content: center; /* 如果上面开了text-align: center，这里也要居中 */
-    gap: 1rem;
-  }
-}
-/* home media queries ends */
-
-/* news section starts */
-.news {
-  background: rgb(255, 255, 255);
-}
-.news .row {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-.news .row .image {
-  text-align: center;
-  flex: 1 1 35rem;
-  width: auto;
-  height: 26rem;
-}
-.news .row .image img {
-  margin: 4rem;
-  width: auto;
-  height: 23rem;
-  border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-}
-.news .row .image img:hover {
-}
-.news .row .content {
-  flex: 1 1 45rem;
-  padding: 1rem;
-}
-.news .row .content h3 {
-  color: rgb(27, 27, 27);
-  font-size: 2.5rem;
-}
-.news .row .content .tag {
-  font-size: 2rem;
-  color: #020133;
-  font-weight: 600;
-  margin-top: 1rem;
-}
-.news .row .content p {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
-  text-transform: none;
-}
-.news .row .content .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
-}
-.news .row .content .box-container .box p {
-  text-transform: none;
-}
-.news .row .content .box-container .box p span {
-  color: #011aff;
-}
-.resumebtn {
-  margin-top: 6rem;
-}
-.resumebtn .btn {
-  padding: 0.8rem 1.5rem;
-  border-radius: 0.5em;
-  transition: 0.3s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
-  font-family: "Nunito", sans-serif;
-}
-.resumebtn .btn span {
-  font-weight: 600;
-  font-size: 1.8rem;
-  letter-spacing: 0.1rem;
-}
-.resumebtn .btn i {
-  margin-left: 0.3rem;
-  font-size: 1.2rem;
-  transition: 0.3s;
-}
-.resumebtn .btn:hover {
-  background: #1a047e;
-}
-.resumebtn .btn:hover i {
-  transform: translateX(5px);
-}
-/* news media queries starts*/
-@media screen and (max-width: 600px) {
-  .news .row .image {
-    margin-top: 2rem;
-    width: auto;
-    height: 20rem;
-  }
-  .news .row .image img {
-    margin: 0 auto;
-    width: auto;
-    height: 20rem;
-    mix-blend-mode: normal;
-  }
-  .news .row {
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .news .row .content {
-    padding: 0.5rem;
-  }
-  .news .row .content .box-container {
-    gap: 0;
-  }
-}
-/* news media queries ends*/
-/* news section ends */
-
-
-/* about section starts */
-.about {
-  background: rgb(247, 247, 247);
-}
-.about .row {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-.about .row .image {
-  text-align: center;
-  flex: 1 1 35rem;
-  width: auto;
-  height: 26rem;
-}
-.about .row .image img {
-  margin: 4rem;
-  width: auto;
-  height: 23rem;
-  border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-}
-.about .row .image img:hover {
-}
-.about .row .content {
-  flex: 1 1 45rem;
-  padding: 1rem;
-}
-.about .row .content h3 {
-  color: rgb(27, 27, 27);
-  font-size: 2.5rem;
-}
-.about .row .content .tag {
-  font-size: 2rem;
-  color: #020133;
-  font-weight: 600;
-  margin-top: 1rem;
-}
-.about .row .content p {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
-  text-transform: none;
-}
-.about .row .content .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
-}
-.about .row .content .box-container .box p {
-  text-transform: none;
-}
-.about .row .content .box-container .box p span {
-  color: #011aff;
-}
-.resumebtn {
-  margin-top: 6rem;
-}
-.resumebtn .btn {
-  padding: 0.8rem 1.5rem;
-  border-radius: 0.5em;
-  transition: 0.3s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
-  font-family: "Nunito", sans-serif;
-}
-.resumebtn .btn span {
-  font-weight: 600;
-  font-size: 1.8rem;
-  letter-spacing: 0.1rem;
-}
-.resumebtn .btn i {
-  margin-left: 0.3rem;
-  font-size: 1.2rem;
-  transition: 0.3s;
-}
-.resumebtn .btn:hover {
-  background: #1a047e;
-}
-.resumebtn .btn:hover i {
-  transform: translateX(5px);
-}
-/* about media queries starts*/
-@media screen and (max-width: 600px) {
-  .about .row .image {
-    margin-top: 2rem;
-    width: auto;
-    height: 20rem;
-  }
-  .about .row .image img {
-    margin: 0 auto;
-    width: auto;
-    height: 20rem;
-    mix-blend-mode: normal;
-  }
-  .about .row {
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .about .row .content {
-    padding: 0.5rem;
-  }
-  .about .row .content .box-container {
-    gap: 0;
-  }
-}
-/* about media queries ends*/
-/* about section ends */
-
-
-/* experiences section starts */
-.experiences {
-  background: rgb(255, 255, 255);
-}
-.experiences .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.experiences .timeline::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  background: #020133;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-  z-index: -2;
-}
-.experiences .container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
-/*circles on timeline*/
-.experiences .container::after {
-  content: "\f19d";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
-  top: 18px;
+  background: var(--text-dark); /* 默认深色 */
+  width: 4.5rem;
+  height: 4.5rem;
   border-radius: 50%;
-  z-index: 100;
-  font-size: 1.89rem;
-  text-align: center;
-  font-weight: 600;
-  color: #02094b;
-  font-family: "Font Awesome\ 6 Free";
+  transition: 0.3s;
+  box-shadow: var(--shadow-sm);
 }
-.experiences .left {
-  left: 0;
+.social-icons a:hover {
+  background: var(--primary);
+  transform: translateY(-5px);
 }
-.experiences .right {
-  left: 50%;
-}
-/* arrows pointing right */
-.experiences .left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #f68c09;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
-}
-/* arrows pointing left  */
-.experiences .right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #f68c09;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
-}
-.experiences .right::after {
-  left: -16px;
-}
-.experiences .content {
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  background-color: #e5ecfb;
-  justify-content: center;
-  align-items: center;
-  border-radius: 6px;
-}
-.experiences .content .image {
-  display: flex;
-  width: auto;
-  height: 10rem;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; 
-}
-.experiences .content img {
-  object-fit: cover;
-  max-width: 100%; 
-  max-height: 100%; 
-  width: auto;      
-  height: auto;     
-}
-.experiences .content .tag {
-  font-size: 1.3rem;
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-}
-.experiences .content .desc {
-  margin-left: 1rem;
-  padding-bottom: 1rem;
-  justify-content: center;
-  align-items: center;
-}
-.experiences .content .desc h2 {
-  font-size: 2rem;
-  font-weight: 600;
-}
-.experiences .content .desc h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.experiences .content .desc p {
-  font-size: 1.2rem;
-}
-/* view all button */
-.morebtn {
-  display: flex;
-  justify-content: center;
-}
-.morebtn .btn {
-  position: relative;
-  line-height: 0;
-  padding: 1.6rem 3rem;
-  border-radius: 0.5em;
-  transition: 0.5s;
+
+/* --- BUTTONS --- */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  border-radius: 3rem;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
-  text-align: center;
-}
-.morebtn .btn span {
-  font-weight: 600;
-  font-size: 1.7rem;
-  font-family: "Nunito", sans-serif;
-}
-.morebtn .btn i {
-  margin-left: 0.3rem;
-  font-size: 1.5rem;
-  transition: 0.3s;
-}
-.morebtn .btn:hover {
-  background: #1a047e;
-}
-.morebtn .btn:hover i {
-  transform: translateX(5px);
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  .experiences {
-    min-height: 80vh;
-  }
-  .experiences .timeline {
-    margin-top: 2rem;
-  }
-  .experiences .timeline::after {
-    left: 31px;
-  }
-  .experiences .container {
-    width: 100%;
-    padding-left: 8rem;
-    padding-right: 2rem;
-  }
-  .experiences .container::after {
-    font-size: 2.2rem;
-  }
-  .experiences .container::before {
-    left: 61px;
-    border: medium solid #f68c09;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #f68c09 transparent transparent;
-  }
-  .experiences .left::after {
-    left: 15px;
-  }
-  .experiences .right::after {
-    left: 15px;
-  }
-  .experiences .right {
-    left: 0%;
-  }
-  .morebtn {
-    margin-top: 3rem;
-  }
-}
-/* experiences media queries ends */
-/* experiences section ends */
-
-
-/* projects section starts */
-.projects {
-  background: rgb(247, 247, 247);
-  min-height: 80vh;
-}
-.projects .qoute {
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  margin-top: 0.5rem;
-}
-.projects .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.projects .box-container .box {
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-  margin-top: 2rem;
-  overflow: hidden;
-  transition: 0.3s;
-  background: #e5ecfb;
-}
-.projects .box-container .box:hover {
-  transform: scale(1.03);
-  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
-}
-.projects .box-container .box .image {
-  flex: 1 1 20rem;
-  width: 50%;
-}
-.projects .box-container .box img {
-  object-fit: cover;
-  position: relative;
-  width: 50%;
-  height: 50%;
-}
-.projects .box-container .box .content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  flex-wrap: wrap;
-  flex: 1 1 70rem;
-}
-.projects .box-container .box .content h3 {
-  font-size: 2rem;
-  color: #012970;
-  padding: 0.5rem 0;
-  font-weight: 600;
-  text-align: left;
-  margin-left: 1rem;
-}
-.projects .box-container .box .content p {
-  font-size: 1.5rem;
-  margin-left: 1rem;
-  text-align: left;
-}
-.projects h4 {
-  font-size: 1.35rem;
-  color: rgb(34, 109, 0);
-  text-align: left;
-  margin: 1rem;
+  background: var(--gradient-main); /* 渐变色 */
+  box-shadow: 0 5px 15px rgba(67, 97, 238, 0.4);
   font-family: "Nunito", sans-serif;
   font-weight: 700;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(67, 97, 238, 0.6);
 }
 
-/* projects media queries starts*/
-@media screen and (max-width: 600px) {
-  .projects .box-container .box {
-    flex-direction: column;
-    width: 100%;
-  }
-  .projects .box-container .box .image {
-    width: 50%;
-    height: 20rem;
-  }
-  .projects .box-container .box img {
-    width: 50%;
-  }
-  .projects .box-container .box .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    flex-wrap: wrap;
-    flex: 0;
-  }
-  .projects .btns {
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    flex-wrap: wrap;
-  }
+/* --- NEWS & ABOUT SECTIONS --- */
+.news, .about {
+  background: var(--bg-white); /* 白色背景 */
 }
-/* projects media queries ends*/
-/* projects section ends */
 
-
-/* publications section starts */
-.publications {
-  background: rgb(255, 255, 255);
-}
-.publications {
-  background: #e5ecfb;
-  min-height: 80vh;
-}
-.publications .qoute {
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  margin-top: 0.5rem;
-}
-.publications .content h3 {
-  font-size: 2.5rem;
-  color: #012970;
-  padding: 0.5rem 0;
-  font-weight: 600;
-  text-align: center;
-  margin-left: 1rem;
-}
-.publications .box-container {
+.news .row, .about .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  gap: 3rem;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
 }
-.publications .box-container .box {
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+
+.news .row .image, .about .row .image {
+  flex: 1 1 30rem;
   text-align: center;
-  position: relative;
-  margin-top: 2rem;
-  overflow: hidden;
-  transition: 0.3s;
-  background: rgb(252, 252, 252);
 }
-.publications .box-container .box:hover {
-  transform: scale(1.03);
-  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
-}
-.publications .box-container .box .image {
-  flex: 1 1 20rem;
-  width: 50%;
-}
-.publications .box-container .box img {
+.news .row .image img, .about .row .image img {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
   object-fit: cover;
-  position: relative;
-  width: auto;
-  height: 10rem;
 }
-.publications .box-container .box .content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  flex-wrap: wrap;
-  flex: 1 1 70rem;
+
+.news .row .content, .about .row .content {
+  flex: 1 1 45rem;
 }
-.publications .box-container .box .content h3 {
-  font-size: 2.5rem;
-  color: #012970;
-  padding: 0.5rem 0;
-  font-weight: 600;
-  text-align: center;
-  margin-left: 1rem;
-}
-.publications .box-container .box .content h4 {
-  font-size: 2rem;
-  padding: 0.5rem 0;
-  font-weight: 600;
-  text-align: left;
-  margin-left: 1rem;
-}
-.publications .box-container .box .content p {
-  font-size: 1.5rem;
-  margin-left: 1rem;
-  text-align: left;
-}
-.publications h4 {
-  font-size: 2rem;
-  color: rgb(34, 109, 0);
-  text-align: center;
-  margin: 1rem;
-  font-family: "Nunito", sans-serif;
+
+.news .content h3, .about .content h3 {
+  color: var(--text-dark);
+  font-size: 2.8rem;
   font-weight: 700;
+  margin-bottom: 1rem;
+}
+.news .content .tag, .about .content .tag {
+  font-size: 1.8rem;
+  color: var(--primary);
+  font-weight: 600;
+  background: rgba(67, 97, 238, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.news .content p, .about .content p {
+  font-size: 1.6rem;
+  color: var(--text-gray);
+  line-height: 1.8;
+  margin-top: 1.5rem;
+  font-family: "Nunito", sans-serif;
+}
+.about .box-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.about .box p {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.about .box i {
+  color: var(--primary);
 }
 
-/* publications media queries starts*/
-@media screen and (max-width: 600px) {
-  .publications .box-container .box {
-    flex-direction: column;
-    width: 100%;
-  }
-  .publications .box-container .box .image {
-    width: 50%;
-    height: 20rem;
-  }
-  .publications .box-container .box img {
-    width: 50%;
-  }
-  .publications .box-container .box .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    flex-wrap: wrap;
-    flex: 0;
-  }
-  .publications .btns {
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    flex-wrap: wrap;
-  }
+/* --- EXPERIENCES & ACHIEVEMENTS (TIMELINE) --- */
+.experiences, .achievements {
+  background: var(--bg-light); /* 浅灰背景 */
 }
-/* publications media queries ends*/
-/* publications section ends */
 
-
-/* achievements section starts */
-.achievements {
-  background: rgb(247, 247, 247);
-}
-.achievements .timeline {
+.timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
-.achievements .timeline::after {
+/* Line */
+.timeline::after {
   content: "";
   position: absolute;
-  width: 6px;
-  background: #020133;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-  z-index: -2;
+  width: 4px;
+  background: #cbd5e1; /* 浅灰色线条 */
+  top: 0; bottom: 0; left: 50%;
+  margin-left: -2px;
+  border-radius: 2px;
 }
-.achievements .container {
+
+.timeline .container {
   padding: 10px 40px;
   position: relative;
-  background-color: inherit;
   width: 50%;
 }
-/*circles on timeline*/
-.achievements .container::after {
-  content: "\f559";
+/* Dots */
+.timeline .container::after {
+  content: ""; 
+  /* 移除 FontAwesome 字符，改用纯净的圆点 */
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  background-color: var(--bg-white);
+  border: 4px solid var(--primary);
   top: 15px;
   border-radius: 50%;
-  z-index: 100;
-  font-size: 1.89rem;
-  text-align: center;
-  font-weight: 600;
-  color: #02094b;
-  font-family: "Font Awesome\ 6 Free";
+  z-index: 10;
 }
-.achievements .left {
-  left: 0;
-}
-.achievements .right {
-  left: 50%;
-}
-/* arrows pointing right */
-.achievements .left::before {
+.timeline .left { left: 0; }
+.timeline .right { left: 50%; }
+.timeline .left::after { right: -10px; }
+.timeline .right::after { left: -10px; }
+
+/* Arrows (Triangle) */
+.timeline .left::before {
   content: " ";
-  height: 0;
   position: absolute;
-  top: 22px;
-  width: 0;
+  top: 18px; right: 30px;
   z-index: 1;
-  right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
-}
-/* arrows pointing left  */
-.achievements .right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #f68c09;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
-}
-.achievements .right::after {
-  left: -16px;
-}
-.achievements .content {
-  background-color: #e5ecfb;
-  position: relative;
-  border-radius: 6px;
-}
-.achievements .content .tag {
-  font-size: 1.3rem;
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-}
-.achievements .content .desc {
-  margin-left: 1.5rem;
-  padding-bottom: 1rem;
-}
-.achievements .content .desc h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.achievements .content .desc p {
-  font-size: 1.2rem;
-}
-/* view all button */
-.morebtn {
-  display: flex;
-  justify-content: center;
-}
-.morebtn .btn {
-  position: relative;
-  line-height: 0;
-  padding: 1.6rem 3rem;
-  border-radius: 0.5em;
-  transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
-  text-align: center;
-}
-.morebtn .btn span {
-  font-weight: 600;
-  font-size: 1.7rem;
-  font-family: "Nunito", sans-serif;
-}
-.morebtn .btn i {
-  margin-left: 0.3rem;
-  font-size: 1.5rem;
-  transition: 0.3s;
-}
-.morebtn .btn:hover {
-  background: #1a047e;
-}
-.morebtn .btn:hover i {
-  transform: translateX(5px);
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  .achievements {
-    min-height: 80vh;
-  }
-  .achievements .timeline {
-    margin-top: 2rem;
-  }
-  .achievements .timeline::after {
-    left: 31px;
-  }
-  .achievements .container {
-    width: 100%;
-    padding-left: 8rem;
-    padding-right: 2rem;
-  }
-  .achievements .container::after {
-    font-size: 2.2rem;
-  }
-  .achievements .container::before {
-    left: 61px;
-    border: medium solid #f68c09;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #f68c09 transparent transparent;
-  }
-  .achievements .left::after {
-    left: 15px;
-  }
-  .achievements .right::after {
-    left: 15px;
-  }
-  .achievements .right {
-    left: 0%;
-  }
-  .morebtn {
-    margin-top: 3rem;
-  }
-}
-/* achievements media queries ends */
-/* achievements section ends */
-
-/* contact section starts */
-.contact {
-  background: #e5ecfb;
-}
-.contact .row {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-.contact .row .content {
-  flex: 1 1 45rem;
-  padding: 0.5rem;
-}
-.contact .row .content h3 {
-  color: rgb(27, 27, 27);
-  font-size: 2.5rem;
-}
-.contact .row .content p {
-  font-size: 2rem;
-  margin-top: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
-  text-transform: none;
-}
-.contact .row .content .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
-}
-.contact .row .content .box-container .box p {
-  text-transform: none;
-}
-.contact .row .content .box-container .box p span {
-  color: #011aff;
-}
-/* contact media queries starts*/
-@media screen and (max-width: 600px) {
-  .contact .row {
-    max-height: 20vh;
-    padding: 0rem;
-    margin-bottom: 0.5rem;
-    gap: 0; 
-  }
-  .contact .row .content {
-    flex-basis: 100%;
-    padding: 0rem;
-  }
-  .contact .row .content .box-container {
-    gap: 0.5rem;
-  }
-}
-/* contact media queries ends*/
-/* contact section ends */
-
-/* footer section starts */
-.footer {
-  max-height: 60vh;
-  padding-top: 0;
-  background: rgb(0, 1, 43);
-}
-.footer .box-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.footer .box-container .box {
-  flex: 1 1 25rem;
-  margin: 2.5rem;
-}
-.footer .box-container .box h3 {
-  font-size: 2.5rem;
-  color: #fff;
-  padding-bottom: 1rem;
-  font-weight: normal;
-}
-.footer .box-container .box p {
-  font-size: 1.5rem;
-  color: #ccc;
-  padding: 0.7rem 0;
-  text-transform: none;
-}
-.footer .box-container .box p i {
-  padding-right: 1rem;
-  color: #ffae00;
-}
-.footer .box-container .box a {
-  font-size: 1.5rem;
-  color: rgb(238, 238, 238);
-  padding: 0.3rem 0;
-  display: block;
-}
-.footer .box-container .box a:hover {
-  color: #ffae00;
-}
-.footer .box-container .box .share {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem 0;
-}
-.footer .box-container .box .share a {
-  height: 4rem;
-  width: 4rem;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 5rem;
-  font-size: 1.7rem;
-  margin-right: 1rem;
-  transition: 0.2s;
-  background: rgb(230, 230, 230);
-  color: #02094b;
-  border: none;
-}
-.footer .box-container .box .share a:hover {
-  background: transparent;
-  transform: scale(0.98);
-  border: 0.1rem solid rgb(180, 178, 178);
-  color: #ffae00;
-}
-.footer .credit {
-  padding: 1rem 0 0 0;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  color: #fff;
-  border-top: 0.1rem solid #fff3;
-}
-.footer .credit a {
-  color: #ffae00;
-}
-.footer .fa {
-  color: #e90606;
-  margin: 0 0.3rem;
-  font-size: 1.5rem;
-  animation: pound 0.35s infinite alternate;
-}
-@-webkit-keyframes pound {
-  to {
-    transform: scale(1.1);
-  }
-}
-@keyframes pound {
-  to {
-    transform: scale(1.1);
-  }
-}
-@media (max-width: 450px) {
-  .footer .box-container .box {
-    margin: 1.5rem;
-  }
-  .footer .box-container .box p {
-    padding: 0.7rem;
-  }
-  .footer .box-container .box .share a {
-    padding: 1.2rem;
-  }
-}
-/* footer section ends */
-
-/* common media queries starts*/
-@media (max-width: 450px) {
-  html {
-    font-size: 55%;
-  }
-  body {
-    padding-right: 0;
-  }
-  section {
-    padding: 2rem;
-  }
-}
-/* common media queries ends*/
-
-/* scroll top starts */
-#scroll-top {
-  position: fixed;
-  top: -140%;
-  right: 2rem;
-  padding: 1rem 1.5rem;
-  font-size: 2rem;
-  background: #ffae00;
-  color: rgb(13, 0, 44);
-  border-radius: 50%;
-  transition: 1s linear;
-  z-index: 1000;
-}
-#scroll-top.active {
-  top: calc(100% - 12rem);
-}
-/* scroll top ends */
+  bor

@@ -390,7 +390,7 @@ header .navbar ul li a:hover {
 
 /* news section starts */
 .news {
-  background: rgb(255, 255, 255);
+  background: #ffffff;
 }
 .news .row {
   display: flex;
@@ -506,7 +506,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(247, 247, 247);
+  background: #e5ecfb;
 }
 .about .row {
   display: flex;
@@ -622,7 +622,7 @@ header .navbar ul li a:hover {
 
 /* experiences section starts */
 .experiences {
-  background: rgb(255, 255, 255);
+  background: #f7f7f7;
 }
 .experiences .timeline {
   position: relative;
@@ -821,7 +821,7 @@ header .navbar ul li a:hover {
 
 /* projects section starts */
 .projects {
-  background: rgb(247, 247, 247);
+  background: #ffffff;
   min-height: 80vh;
 }
 .projects .qoute {
@@ -928,9 +928,6 @@ header .navbar ul li a:hover {
 
 
 /* publications section starts */
-.publications {
-  background: rgb(255, 255, 255);
-}
 .publications {
   background: #e5ecfb;
   min-height: 80vh;
@@ -1055,7 +1052,7 @@ header .navbar ul li a:hover {
 
 /* achievements section starts */
 .achievements {
-  background: rgb(247, 247, 247);
+  background: #f7f7f7;
 }
 .achievements .timeline {
   position: relative;

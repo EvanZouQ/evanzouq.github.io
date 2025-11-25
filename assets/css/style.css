@@ -318,41 +318,75 @@ header .navbar ul li a:hover {
 }
 /* social icons end */
 
-/* home media queries starts*/
-@media (max-width: 450px) {
+/* hero media queries starts */
+/* 将 450px 改为 991px，以覆盖平板和电脑分屏（半屏）的情况 */
+@media (max-width: 991px) {
+  
+  /* 【核心修复代码】 */
+  .home {
+    /* 取消最大高度限制，防止内容溢出覆盖到下一节 */
+    max-height: unset; 
+    /* 让高度自动适应内容（文字+图片的高度） */
+    height: auto; 
+    /* 底部增加一些空间，防止图片紧贴着下一节 */
+    padding-bottom: 5rem; 
+  }
+
+  /* 下面是其他的调整，保持原样或微调 */
   .home .btn {
-    margin: 2rem 0;
+    margin: 2rem 0; /* 稍微减小按钮边距 */
   }
+  
   .socials {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
+  
   .home .content {
-  /* flex: 1 1 40rem;*/
-  margin-top: 4rem;
-  margin-left: 1rem;
-  padding-top: 1rem;
-  z-index: 1;
-}
+    /* 修改 flex-basis 为 auto，允许内容自适应宽度 */
+    flex: 1 1 auto; 
+    margin-top: 8rem; /* 增加顶部距离，避开导航栏 */
+    margin-left: 0;   /* 半屏模式下，通常居中或取消大左边距 */
+    padding-top: 1rem;
+    z-index: 1;
+    /* 如果你想让文字在半屏时居中，取消下面这行的注释 */
+    /* text-align: center; */
+  }
+
+  /* 让图片容器宽度自适应并居中 */
   .home .image {
     margin-top: 2rem;
-    margin-left: 20rem;
-    width: auto;
-    height: 20rem;
-}
-  .home .image img {
-    margin: 0 auto;
-    margin-top: 4rem;
-    margin-left: 20rem;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center; /* 确保图片居中 */
+    /* 确保容器高度不会被写死 */
+    height: auto; 
+    flex: 1 1 auto;
   }
+
+  .home .image img {
+    margin-top: 1rem;
+    margin-right: 0;
+    /* 确保图片本身不会过大 */
+    max-width: 80%; 
+    height: auto; /* 保持比例 */
+  }
+
   .home .content p {
     font-size: 2.2rem;
   }
+  
   .home .content p span {
     font-size: 2.2rem;
   }
+  
+  /* 修复社交图标在居中时的显示 */
+  .social-icons {
+    display: flex;
+    justify-content: center; /* 如果上面开了text-align: center，这里也要居中 */
+    gap: 1rem;
+  }
 }
-/* home media queries ends*/
-/* home section end */
+/* home media queries ends */
 
 /* news section starts */
 .news {

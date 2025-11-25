@@ -584,6 +584,9 @@ header .navbar ul li a:hover {
 
 
 /* experiences section starts */
+.experiences {
+  background: rgb(255, 255, 255);
+}
 .experiences .timeline {
   position: relative;
   max-width: 1200px;
@@ -781,7 +784,7 @@ header .navbar ul li a:hover {
 
 /* projects section starts */
 .projects {
-  background: rgb(252, 252, 252);
+  background: rgb(247, 247, 247);
   min-height: 80vh;
 }
 .projects .qoute {
@@ -888,6 +891,9 @@ header .navbar ul li a:hover {
 
 
 /* publications section starts */
+.publications {
+  background: rgb(255, 255, 255);
+}
 .publications {
   background: #e5ecfb;
   min-height: 80vh;
@@ -1011,6 +1017,9 @@ header .navbar ul li a:hover {
 
 
 /* achievements section starts */
+.achievements {
+  background: rgb(247, 247, 247);
+}
 .achievements .timeline {
   position: relative;
   max-width: 1200px;

@@ -319,10 +319,9 @@ header .navbar ul li a:hover {
 /* social icons end */
 
 /* hero media queries starts */
-/* 将 450px 改为 991px，以覆盖平板和电脑分屏（半屏）的情况 */
-@media (max-width: 991px) {
+@media (max-width: 450px) {
   .home {
-    min-height: 80vh;
+    min-height: 100vh;
     height: auto; 
     padding-bottom: 5rem; 
   }
@@ -362,7 +361,7 @@ header .navbar ul li a:hover {
     margin-top: 1rem;
     margin-right: 0;
     /* 确保图片本身不会过大 */
-    max-width: 80%; 
+    max-width: 60%; 
     height: auto; /* 保持比例 */
   }
 

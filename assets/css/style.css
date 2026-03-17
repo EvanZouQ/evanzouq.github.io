@@ -654,7 +654,10 @@ header .navbar ul li a:hover {
 /* experiences media queries starts*/
 @media screen and (max-width: 600px) {
   .experiences .box-container .box {
+    display: flex;          /* 确保启用了 flex 布局 */
     flex-direction: column;
+    align-items: center;    /* 让子元素在交叉轴（水平方向）居中 */
+    text-align: center;     /* 如果文字也需要居中可以加上 */
     height: 100%;
   }
   .experiences .box-container .box .image {

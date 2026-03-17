@@ -683,7 +683,7 @@ header .navbar ul li a:hover {
 
 /* grants section starts */
 .grants {
-  background: #e5ecfb;
+  background: rgb(255, 255, 255);
   min-height: 80vh;
 }
 .grants .qoute {

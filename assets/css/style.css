@@ -972,7 +972,7 @@ header .navbar ul li a:hover {
   right: 30px;
   border: medium solid #f68c09;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent #e5ecfb;
 }
 /* arrows pointing left  */
 .awards .right::before {

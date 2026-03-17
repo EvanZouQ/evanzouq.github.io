@@ -915,6 +915,9 @@ header .navbar ul li a:hover {
 
 
 /* awards section starts */
+.awards {
+  background: #f7f7f7;
+}
 .awards .timeline {
   position: relative;
   max-width: 1200px;
@@ -934,17 +937,17 @@ header .navbar ul li a:hover {
 .awards .container {
   padding: 10px 40px;
   position: relative;
-  background-color: #C0CDDC;
+  background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
 .awards .container::after {
-  content: "\f0b1";
+  content: "\f559";
   position: absolute;
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(255, 255, 255);
+  background-color: #e6e6e6;
   border: 4px solid #ff9f55;
   top: 15px;
   border-radius: 50%;
@@ -953,7 +956,7 @@ header .navbar ul li a:hover {
   text-align: center;
   font-weight: 600;
   color: #02094b;
-  font-family: "Font Awesome\ 5 Free";
+  font-family: "Font Awesome\ 6 Free";
 }
 .awards .left {
   left: 0;
@@ -970,9 +973,9 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #C0CDDC;
+  border: medium solid #f68c09;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #e5ecfb;
+  border-color: transparent transparent transparent #f68c09;
 }
 /* arrows pointing left  */
 .awards .right::before {
@@ -991,12 +994,12 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .awards .content {
-  background-color: #C0CDDC;
+  background-color: #e5ecfb;
   position: relative;
   border-radius: 6px;
 }
 .awards .content .tag {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
@@ -1084,6 +1087,7 @@ header .navbar ul li a:hover {
 }
 /* awards media queries ends */
 /* awards section ends */
+
 
 /* contact section starts */
 .contact {

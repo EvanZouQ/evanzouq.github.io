@@ -615,14 +615,14 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .image {
   flex: 1 1 20rem;
-  width: 8rem;
-  height: auto;
+  width: auto;
+  height: 8rem;
 }
 .experiences .box-container .box img {
   object-fit: cover;
   position: relative;
-  width: 8rem;
-  height: auto;
+  width: auto;
+  height: 8rem;
 }
 .experiences .box-container .box .content {
   position: relative;
@@ -664,12 +664,12 @@ header .navbar ul li a:hover {
     height: 100%;
   }
   .experiences .box-container .box .image {
-    width: 8rem;
-    height: auto;
+    width: auto;
+    height: 8rem;
   }
   .experiences .box-container .box img {
-    width: 8rem;
-    height: auto;
+    width: auto;
+    height: 8rem;
   }
   .experiences .box-container .box .content {
     position: relative;
@@ -924,6 +924,7 @@ header .navbar ul li a:hover {
 /* awards section starts */
 .awards {
   background: #f7f7f7;
+  font-family: "Nunito", sans-serif;
 }
 .awards .timeline {
   position: relative;
@@ -963,7 +964,7 @@ header .navbar ul li a:hover {
   text-align: center;
   font-weight: 600;
   color: #02094b;
-  font-family: "Font Awesome\ 6 Free";
+  font-family: "Nunito", sans-serif;
 }
 .awards .left {
   left: 0;

@@ -346,7 +346,7 @@ header .navbar ul li a:hover {
 
 /* news section starts */
 .news {
-  background: rgb(255, 255, 255);
+  background: #e5ecfb;
 }
 .news .row {
   display: flex;
@@ -461,7 +461,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: #e5ecfb;
+  background: rgb(255, 255, 255);
 }
 .about .row {
   display: flex;
@@ -576,7 +576,7 @@ header .navbar ul li a:hover {
 
 /* experiences section starts */
 .experiences {
-  background: #C0C0C0;
+  background: rgb(200, 200, 200);
   min-height: 80vh;
 }
 .experiences .qoute {
@@ -612,12 +612,12 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .image {
   flex: 1 1 20rem;
-  width: 80%;
+  height: 20rem;
 }
 .experiences .box-container .box img {
   object-fit: cover;
   position: relative;
-  width: 80%;
+  height: 20rem;
 }
 .experiences .box-container .box .content {
   position: relative;
@@ -653,14 +653,13 @@ header .navbar ul li a:hover {
 @media screen and (max-width: 600px) {
   .experiences .box-container .box {
     flex-direction: column;
-    width: 80%;
+    height: 100%;
   }
   .experiences .box-container .box .image {
-    width: 80%;
-    height: 25rem;
+    height: 20rem;
   }
   .experiences .box-container .box img {
-    width: 80%;
+    height: 20rem;
   }
   .experiences .box-container .box .content {
     position: relative;

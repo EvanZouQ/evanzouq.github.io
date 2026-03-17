@@ -934,7 +934,7 @@ header .navbar ul li a:hover {
 .awards .container {
   padding: 10px 40px;
   position: relative;
-  background-color: #e6eff1;
+  background-color: #C0CDDC;
   width: 50%;
 }
 /*circles on timeline*/
@@ -970,7 +970,7 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #C0CDDC;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #e5ecfb;
 }
@@ -983,15 +983,15 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #C0CDDC;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #C0CDDC transparent transparent;
 }
 .awards .right::after {
   left: -16px;
 }
 .awards .content {
-  background-color: #f68c09;
+  background-color: #C0CDDC;
   position: relative;
   border-radius: 6px;
 }
@@ -1065,9 +1065,9 @@ header .navbar ul li a:hover {
   }
   .awards .container::before {
     left: 61px;
-    border: medium solid #f68c09;
+    border: medium solid #C0CDDC;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #f68c09 transparent transparent;
+    border-color: transparent #C0CDDC transparent transparent;
   }
   .awards .left::after {
     left: 15px;

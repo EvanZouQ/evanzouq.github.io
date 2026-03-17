@@ -983,9 +983,9 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #C0CDDC;
+  border: medium solid #f68c09;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #C0CDDC transparent transparent;
+  border-color: transparent #f68c09 transparent transparent;
 }
 .awards .right::after {
   left: -16px;
@@ -1065,9 +1065,9 @@ header .navbar ul li a:hover {
   }
   .awards .container::before {
     left: 61px;
-    border: medium solid #C0CDDC;
+    border: medium solid #f68c09;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #C0CDDC transparent transparent;
+    border-color: transparent #f68c09 transparent transparent;
   }
   .awards .left::after {
     left: 15px;

@@ -461,7 +461,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(200, 200, 200);
+  background: #e5ecfb;
 }
 .about .row {
   display: flex;
@@ -576,7 +576,7 @@ header .navbar ul li a:hover {
 
 /* experiences section starts */
 .experiences {
-  background: #e5ecfb;
+  background: #C0C0C0;
   min-height: 80vh;
 }
 .experiences .qoute {

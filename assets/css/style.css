@@ -1017,10 +1017,14 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc h3 {
   font-size: 2rem;
+  color: #6699CC;
   font-weight: 600;
+  font-family: "Nunito", sans-serif;
 }
 .awards .content .desc p {
   font-size: 2rem;
+  color: #FFFF33;
+  font-family: "Nunito", sans-serif;
 }
 /* view all button */
 .morebtn {

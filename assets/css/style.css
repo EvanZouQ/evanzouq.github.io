@@ -178,7 +178,7 @@ header .navbar ul li a:hover {
 }
 /* hamburger icon ends */
 
-/* hero section starts*/
+/* home section starts*/
 .home {
   position: relative;
   display: flex;
@@ -212,7 +212,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 70%;
+  width: 50%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -323,7 +323,7 @@ header .navbar ul li a:hover {
 }
 /* social icons end */
 
-/* hero media queries starts*/
+/* home media queries starts*/
 @media (max-width: 450px) {
   .home .btn {
     margin: 4rem 0;
@@ -341,8 +341,8 @@ header .navbar ul li a:hover {
     font-size: 2.2rem;
   }
 }
-/* hero media queries ends*/
-/* hero section end */
+/* home media queries ends*/
+/* home section end */
 
 /* news section starts */
 .news {

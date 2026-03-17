@@ -854,7 +854,7 @@ header .navbar ul li a:hover {
   flex: 1 1 70rem;
 }
 .publications .box-container .box .content h3 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: #012970;
   padding: 0.5rem 0;
   font-weight: 600;
@@ -862,14 +862,14 @@ header .navbar ul li a:hover {
   margin-left: 1rem;
 }
 .publications .box-container .box .content h4 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
   margin-left: 1rem;
 }
 .publications .box-container .box .content p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 1rem;
   text-align: left;
 }
@@ -934,7 +934,7 @@ header .navbar ul li a:hover {
 .awards .container {
   padding: 10px 40px;
   position: relative;
-  background-color: inherit;
+  background-color: #e6eff1;
   width: 50%;
 }
 /*circles on timeline*/

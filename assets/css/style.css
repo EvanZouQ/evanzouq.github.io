@@ -922,10 +922,6 @@ header .navbar ul li a:hover {
 
 
 /* awards section starts */
-.awards {
-  background: #f7f7f7;
-  font-family: "Nunito", sans-serif;
-}
 .awards .timeline {
   position: relative;
   max-width: 1200px;
@@ -950,12 +946,12 @@ header .navbar ul li a:hover {
 }
 /*circles on timeline*/
 .awards .container::after {
-  content: "\f559";
+  content: "\f0b1";
   position: absolute;
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #e6e6e6;
+  background-color: rgb(255, 255, 255);
   border: 4px solid #ff9f55;
   top: 15px;
   border-radius: 50%;
@@ -964,7 +960,7 @@ header .navbar ul li a:hover {
   text-align: center;
   font-weight: 600;
   color: #02094b;
-  font-family: "Nunito", sans-serif;
+  font-family: "Font Awesome\ 5 Free";
 }
 .awards .left {
   left: 0;
@@ -1002,12 +998,12 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .awards .content {
-  background-color: #e5ecfb;
+  background-color: #f68c09;
   position: relative;
   border-radius: 6px;
 }
 .awards .content .tag {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
@@ -1016,15 +1012,11 @@ header .navbar ul li a:hover {
   padding-bottom: 1rem;
 }
 .awards .content .desc h3 {
-  font-size: 2rem;
-  color: #6699CC;
+  font-size: 1.5rem;
   font-weight: 600;
-  font-family: "Nunito", sans-serif;
 }
 .awards .content .desc p {
-  font-size: 2rem;
-  color: #FFFF33;
-  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
 }
 /* view all button */
 .morebtn {

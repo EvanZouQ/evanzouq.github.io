@@ -634,7 +634,7 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: rgb(0, 0, 255);
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -642,6 +642,7 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .content p {
   font-size: 2rem;
+  color: rgb(255, 255, 255);
   margin-left: 1rem;
   text-align: left;
 }

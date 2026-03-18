@@ -1011,19 +1011,19 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc {
   font-family: "Nunito", sans-serif;
-  margin-left: 1.5rem;
+  margin-left: 2.5rem;
   padding-bottom: 1rem;
 }
 .awards .content .desc h3 {
   font-family: "Nunito", sans-serif;
   color: rgb(0, 0, 255);
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 .awards .content .desc p {
   font-family: "Nunito", sans-serif;
   color: rgb(34, 109, 0);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 /* view all button */
 .morebtn {

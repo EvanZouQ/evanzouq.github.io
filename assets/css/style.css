@@ -702,6 +702,7 @@ header .navbar ul li a:hover {
   margin-top: 0.5rem;
 }
 .grants .box-container {
+  background: rgb(200, 200, 200);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -769,6 +770,7 @@ header .navbar ul li a:hover {
 /* grants media queries starts*/
 @media screen and (max-width: 600px) {
   .grants .box-container .box {
+    background: rgb(200, 200, 200);
     flex-direction: column;
     width: 100%;
   }

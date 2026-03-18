@@ -710,7 +710,6 @@ header .navbar ul li a:hover {
 }
 .grants .box-container .box {
   display: flex;
-  background: rgb(200, 200, 200);
   flex-direction: row;
   background: #e5ecfb;
   width: 80%;
@@ -721,7 +720,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: rgb(252, 252, 252);
+  background: rgb(200, 200, 200);
 }
 .grants .box-container .box:hover {
   transform: scale(1.03);

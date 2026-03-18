@@ -702,7 +702,6 @@ header .navbar ul li a:hover {
   margin-top: 0.5rem;
 }
 .grants .box-container {
-  background: rgb(200, 200, 200);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -711,6 +710,7 @@ header .navbar ul li a:hover {
 }
 .grants .box-container .box {
   display: flex;
+  background: rgb(200, 200, 200);
   flex-direction: row;
   background: #e5ecfb;
   width: 80%;
@@ -1005,19 +1005,25 @@ header .navbar ul li a:hover {
   border-radius: 6px;
 }
 .awards .content .tag {
+  font-family: "Nunito", sans-serif;
   font-size: 1.3rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
 .awards .content .desc {
+  font-family: "Nunito", sans-serif;
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
 .awards .content .desc h3 {
+  font-family: "Nunito", sans-serif;
+  color: rgb(0, 0, 255);
   font-size: 1.5rem;
   font-weight: 600;
 }
 .awards .content .desc p {
+  font-family: "Nunito", sans-serif;
+  color: rgb(34, 109, 0);
   font-size: 1.2rem;
 }
 /* view all button */

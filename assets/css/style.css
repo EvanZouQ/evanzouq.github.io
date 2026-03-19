@@ -721,7 +721,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: rgb(200, 200, 200);
+  background: #e5ecfb;
 }
 .grants .box-container .box:hover {
   transform: scale(1.03);

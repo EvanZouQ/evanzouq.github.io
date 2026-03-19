@@ -354,7 +354,7 @@ header .navbar ul li a:hover {
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
-  padding: 4rem;
+  padding: 1rem;
 }
 .news .row .image {
   text-align: center;
@@ -375,7 +375,7 @@ header .navbar ul li a:hover {
 }
 .news .row .content {
   flex: 1 1 45rem;
-  padding: 3rem;
+  padding: 1rem;
 }
 .news .row .content h3 {
   color: rgb(27, 27, 27);
@@ -389,7 +389,7 @@ header .navbar ul li a:hover {
 }
 .news .row .content p {
   font-size: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
@@ -408,7 +408,7 @@ header .navbar ul li a:hover {
   color: #011aff;
 }
 .resumebtn {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
@@ -438,7 +438,7 @@ header .navbar ul li a:hover {
 /* news media queries starts*/
 @media screen and (max-width: 600px) {
   .news .row .image {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .news .row .image img {
     margin: 0 auto;
@@ -447,7 +447,7 @@ header .navbar ul li a:hover {
   }
   .news .row {
     padding: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .news .row .content {
     padding: 1rem;
@@ -469,7 +469,7 @@ header .navbar ul li a:hover {
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
-  padding: 4rem;
+  padding: 1rem;
 }
 .about .row .image {
   text-align: center;
@@ -488,7 +488,7 @@ header .navbar ul li a:hover {
 }
 .about .row .content {
   flex: 1 1 45rem;
-  padding: 3rem;
+  padding: 1rem;
 }
 .about .row .content h3 {
   color: rgb(27, 27, 27);
@@ -521,7 +521,7 @@ header .navbar ul li a:hover {
   color: #011aff;
 }
 .resumebtn {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
@@ -551,7 +551,7 @@ header .navbar ul li a:hover {
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
   .about .row .image {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .about .row .image img {
     margin: 0 auto;
@@ -560,7 +560,7 @@ header .navbar ul li a:hover {
   }
   .about .row {
     padding: 0.5rem;
-    margin-bottom: 7rem;
+    margin-bottom: 1rem;
   }
   .about .row .content {
     padding: 1rem;
@@ -1016,7 +1016,7 @@ header .navbar ul li a:hover {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
-.awards .content .desc h2 {
+.awards .content .desc {
   font-family: "Nunito", sans-serif;
   color: #1a047e;
   font-size: 3rem;
@@ -1026,15 +1026,22 @@ header .navbar ul li a:hover {
 .awards .content .desc h3 {
   font-family: "Nunito", sans-serif;
   margin-left: 1rem;
-  color: rgb(0, 0, 0);
+  color: #1a047e;
   font-size: 2.5rem;
+  font-weight: 600;
+}
+.awards .content .desc h4 {
+  font-family: "Nunito", sans-serif;
+  margin-left: 1rem;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
   font-weight: 600;
 }
 .awards .content .desc p {
   font-family: "Nunito", sans-serif;
   margin-left: 1rem;
   color: rgb(34, 109, 0);
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 /* view all button */
 .morebtn {

@@ -613,6 +613,7 @@ header .navbar ul li a:hover {
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
 }
 .experiences .box-container .box .image {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex: 1 1 20rem;
@@ -666,6 +667,7 @@ header .navbar ul li a:hover {
     height: 100%;
   }
   .experiences .box-container .box .image {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 7rem;
@@ -1014,7 +1016,7 @@ header .navbar ul li a:hover {
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
-.awards .content .desc {
+.awards .content .desc h2 {
   font-family: "Nunito", sans-serif;
   margin-left: 3rem;
   padding-bottom: 1rem;

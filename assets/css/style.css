@@ -613,14 +613,16 @@ header .navbar ul li a:hover {
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
 }
 .experiences .box-container .box .image {
+  justify-content: center;
+  align-items: center;
   flex: 1 1 20rem;
-  width: 8rem;
+  width: 7rem;
   height: auto;
 }
 .experiences .box-container .box img {
   object-fit: cover;
   position: relative;
-  width: 8rem;
+  width: 7rem;
   height: auto;
 }
 .experiences .box-container .box .content {
@@ -664,11 +666,13 @@ header .navbar ul li a:hover {
     height: 100%;
   }
   .experiences .box-container .box .image {
-    width: 8rem;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
     height: auto;
   }
   .experiences .box-container .box img {
-    width: 8rem;
+    width: 7rem;
     height: auto;
   }
   .experiences .box-container .box .content {

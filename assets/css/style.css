@@ -759,7 +759,7 @@ header .navbar ul li a:hover {
   margin-left: 1rem;
 }
 .grants .box-container .box .content p {
-  color: rgb(255, 255, 255);
+  color: rgb(55, 55, 55);
   font-size: 2rem;
   margin-left: 1rem;
   text-align: left;
@@ -1018,22 +1018,23 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc h2 {
   font-family: "Nunito", sans-serif;
-  font-size: 2.5rem;
+  color: #1a047e;
+  font-size: 3rem;
   margin-left: 1rem;
   padding-bottom: 1rem;
 }
 .awards .content .desc h3 {
   font-family: "Nunito", sans-serif;
   margin-left: 1rem;
-  color: rgb(0, 0, 255);
-  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
   font-weight: 600;
 }
 .awards .content .desc p {
   font-family: "Nunito", sans-serif;
   margin-left: 1rem;
   color: rgb(34, 109, 0);
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 /* view all button */
 .morebtn {

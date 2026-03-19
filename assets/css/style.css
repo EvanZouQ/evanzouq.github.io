@@ -752,14 +752,14 @@ header .navbar ul li a:hover {
 }
 .grants .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: color: rgb(0, 0, 255);
+  color: #1a047e;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
   margin-left: 1rem;
 }
 .grants .box-container .box .content p {
-  color: color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   font-size: 2rem;
   margin-left: 1rem;
   text-align: left;
@@ -1018,17 +1018,20 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc h2 {
   font-family: "Nunito", sans-serif;
-  margin-left: 3rem;
+  font-size: 2.5rem;
+  margin-left: 1rem;
   padding-bottom: 1rem;
 }
 .awards .content .desc h3 {
   font-family: "Nunito", sans-serif;
+  margin-left: 1rem;
   color: rgb(0, 0, 255);
   font-size: 2rem;
   font-weight: 600;
 }
 .awards .content .desc p {
   font-family: "Nunito", sans-serif;
+  margin-left: 1rem;
   color: rgb(34, 109, 0);
   font-size: 2rem;
 }
@@ -1136,12 +1139,15 @@ header .navbar ul li a:hover {
   position: relative;
 }
 .contact .content form {
+  justify-content: center; /* 水平居中 */
+  align-items: center;
   width: 45%;
   margin-right: 3.5rem;
 }
 form .form-group {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 .form-group .field {

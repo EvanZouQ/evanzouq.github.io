@@ -348,6 +348,7 @@ header .navbar ul li a:hover {
 /* news section starts */
 .news {
   background: #e5ecfb;
+  margin-bottom: 1rem;
 }
 .news .row {
   display: flex;
@@ -361,7 +362,7 @@ header .navbar ul li a:hover {
   flex: 1 1 35rem;
 }
 .news .row .image img {
-  margin: 4rem;
+  margin: 1rem;
   width: 30rem;
   height: auto;
   border-radius: 5%;

@@ -348,7 +348,6 @@ header .navbar ul li a:hover {
 /* news section starts */
 .news {
   background: #e5ecfb;
-  margin-bottom: 1rem;
 }
 .news .row {
   display: flex;
@@ -442,7 +441,7 @@ header .navbar ul li a:hover {
     margin-top: 1rem;
   }
   .news .row .image img {
-    margin: 0 auto;
+    margin: 1rem;
     width: 80%;
     mix-blend-mode: normal;
   }

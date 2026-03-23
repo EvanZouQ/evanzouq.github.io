@@ -1025,6 +1025,7 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc h3 {
   font-family: "Nunito", sans-serif;
+  margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
   color: #1a047e;

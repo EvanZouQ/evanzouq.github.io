@@ -376,6 +376,7 @@ header .navbar ul li a:hover {
 .news .row .content {
   flex: 1 1 45rem;
   padding: 1rem;
+  margin-top: 5rem;
 }
 .news .row .content h3 {
   color: rgb(27, 27, 27);

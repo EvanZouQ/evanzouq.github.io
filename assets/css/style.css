@@ -598,7 +598,7 @@ header .navbar ul li a:hover {
 .research .box-container .box {
   display: flex;
   flex-direction: row;
-  background: #e5ecfb;
+  background: #FFFFFF;
   width: 80%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -831,7 +831,7 @@ header .navbar ul li a:hover {
 .grants .box-container .box {
   display: flex;
   flex-direction: row;
-  background: #e5ecfb;
+  background: #FFFFFF;
   width: 80%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);

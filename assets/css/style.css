@@ -1091,7 +1091,7 @@ header .navbar ul li a:hover {
   top: 22px;
   width: 0;
   z-index: 1;
-  right: 30px;
+  right: 40px;
   border: medium solid #ffffff;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #f68c09;
@@ -1104,7 +1104,7 @@ header .navbar ul li a:hover {
   top: 22px;
   width: 0;
   z-index: 1;
-  left: 30px;
+  left: 40px;
   border: medium solid #ffffff;
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
@@ -1132,11 +1132,11 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc h3 {
   font-family: sans-serif;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  color: #1a047e;
+  color: #000000;
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -1146,7 +1146,7 @@ header .navbar ul li a:hover {
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  color: rgb(0, 0, 0);
+  color: #808080;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -1156,7 +1156,7 @@ header .navbar ul li a:hover {
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  color: rgb(34, 109, 0);
+  color: #D3D3D3;
   font-size: 2rem;
 }
 /* view all button */

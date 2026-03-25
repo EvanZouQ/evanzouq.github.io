@@ -489,18 +489,22 @@ header .navbar ul li a:hover {
   padding: 1rem;
 }
 .about .row .content h3 {
-  color: rgb(27, 27, 27);
+  color: #A9A9A9;
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 .about .row .content .tag {
   font-size: 2.5rem;
-  color: #020133;
+  color: #808080;
   font-weight: 600;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .about .row .content p {
   font-size: 2rem;
-  margin-top: 1.5rem;
+  color: #D3D3D3;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-family: sans-serif;
   font-weight: 600;
   text-transform: none;

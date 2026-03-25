@@ -17,12 +17,12 @@ $(document).ready(function () {
 
         // scroll spy
         $('section').each(function () {
-            let height = $(this).height();
-            let offset = $(this).offset().top - 200;
             let top = $(window).scrollTop();
+            let height = $(this).outerHeight(); // 【关键修改1】改成 outerHeight，把刚刚加的 padding 算进去
+            let offset = $(this).offset().top - 150; // 【关键修改2】微调了触发偏移量，让变色更精准
             let id = $(this).attr('id');
 
-            if (top > offset && top < offset + height) {
+            if (top >= offset && top < offset + height) {
                 $('.navbar ul li a').removeClass('active');
                 $('.navbar').find(`[href="#${id}"]`).addClass('active');
             }

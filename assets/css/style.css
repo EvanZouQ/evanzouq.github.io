@@ -1401,11 +1401,13 @@ form .button-area {
 /* contact section media queries ends */
 /* contact section ends */
 
+
+
 /* footer section starts */
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: #A3C6C4;
+  background: #6C7A89;
 }
 .footer .box-container {
   display: flex;

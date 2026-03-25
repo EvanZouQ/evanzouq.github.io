@@ -370,7 +370,7 @@ header .navbar ul li a:hover {
 .news .box-container .box {
   display: flex;
   flex-direction: row;
-  background: #FFFFFF;
+  background: #A3C6C4;
   width: 90%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -428,7 +428,7 @@ header .navbar ul li a:hover {
 /* news media queries starts*/
 @media screen and (max-width: 600px) {
   .news .box-container .box {
-    background: #FFFFFF;
+    background: #A3C6C4;
     flex-direction: column;
     width: 100%;
   }
@@ -597,7 +597,7 @@ header .navbar ul li a:hover {
 .research .box-container .box {
   display: flex;
   flex-direction: row;
-  background: #FFFFFF;
+  background: #A3C6C4;
   width: 90%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -655,7 +655,7 @@ header .navbar ul li a:hover {
 /* research media queries starts*/
 @media screen and (max-width: 600px) {
   .research .box-container .box {
-    background: #FFFFFF;
+    background: #A3C6C4;
     flex-direction: column;
     width: 100%;
   }
@@ -829,7 +829,7 @@ header .navbar ul li a:hover {
 .grants .box-container .box {
   display: flex;
   flex-direction: row;
-  background: #FFFFFF;
+  background: #A3C6C4;
   width: 90%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -887,7 +887,7 @@ header .navbar ul li a:hover {
 /* grants media queries starts*/
 @media screen and (max-width: 600px) {
   .grants .box-container .box {
-    background: #FFFFFF;
+    background: #A3C6C4;
     flex-direction: column;
     width: 100%;
   }
@@ -1096,7 +1096,7 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   right: 40px;
-  border: medium solid #ffffff;
+  border: medium solid #A3C6C4;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #f68c09;
 }
@@ -1109,7 +1109,7 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   left: 40px;
-  border: medium solid #ffffff;
+  border: medium solid #A3C6C4;
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
 }
@@ -1117,7 +1117,7 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .awards .content {
-  background-color: #ffffff;
+  background-color: #A3C6C4;
   position: relative;
   border-radius: 6px;
 }
@@ -1405,7 +1405,7 @@ form .button-area {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: #FFFFFF;
+  background: #A3C6C4;
 }
 .footer .box-container {
   display: flex;

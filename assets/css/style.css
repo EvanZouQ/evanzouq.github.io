@@ -83,6 +83,7 @@ section {
   color: rgb(32, 32, 32);
   font-weight: 800;
   text-align: center;
+  scroll-margin-top: 8rem;
 }
 .heading span {
   color: rgb(115, 3, 167);

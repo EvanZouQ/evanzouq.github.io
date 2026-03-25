@@ -329,6 +329,7 @@ header .navbar ul li a:hover {
 /* home media queries starts*/
 @media (max-width: 450px) {
   .home .btn {
+    margin-top: 3rem;
     margin: 4rem 0;
   }
   .socials {

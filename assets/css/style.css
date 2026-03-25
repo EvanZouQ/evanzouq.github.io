@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #f7f7f7;
+  background: #e6e6e6;
   font-family: sans-serif;
 }
 
@@ -349,7 +349,7 @@ header .navbar ul li a:hover {
 
 /* news section starts */
 .news {
-  background: #e5ecfb;
+  background: #e6e6e6;
 }
 .news .row {
   display: flex;
@@ -465,7 +465,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: #e6e6e6;
 }
 .about .row {
   display: flex;
@@ -578,7 +578,7 @@ header .navbar ul li a:hover {
 
 /* research section starts */
 .research {
-  background: rgb(255, 255, 255);
+  background: #e6e6e6;
 }
 .research .row {
   display: flex;
@@ -691,7 +691,7 @@ header .navbar ul li a:hover {
 
 /* experiences section starts */
 .experiences {
-  background: rgb(200, 200, 200);
+  background: #e6e6e6;
   min-height: 80vh;
   justify-content: center; /* 垂直方向居中 (主轴) */
   align-items: center;     /* 水平方向居中 (交叉轴) */
@@ -813,7 +813,7 @@ header .navbar ul li a:hover {
 
 /* grants section starts */
 .grants {
-  background: rgb(255, 255, 255);
+  background: #e6e6e6;
   min-height: 80vh;
 }
 .grants .qoute {
@@ -924,7 +924,7 @@ header .navbar ul li a:hover {
 
 /* publications section starts */
 .publications {
-  background: #e5ecfb;
+  background: #e6e6e6;
   min-height: 80vh;
 }
 .publications .qoute {
@@ -1240,7 +1240,7 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: #e6e6e6;
   min-height: 60vh;
 }
 .contact .container {
@@ -1402,7 +1402,7 @@ form .button-area {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 1, 43);
+  background: rgb(255, 255, 255);
 }
 .footer .box-container {
   display: flex;
@@ -1452,7 +1452,7 @@ form .button-area {
   font-size: 1.7rem;
   margin-right: 1rem;
   transition: 0.2s;
-  background: rgb(230, 230, 230);
+  background: rgb(30, 30, 30);
   color: #02094b;
   border: none;
 }

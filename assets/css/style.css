@@ -607,7 +607,6 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: #e5ecfb;
 }
 .research .box-container .box:hover {
   transform: scale(1.03);
@@ -657,7 +656,7 @@ header .navbar ul li a:hover {
 /* research media queries starts*/
 @media screen and (max-width: 600px) {
   .research .box-container .box {
-    background: rgb(200, 200, 200);
+    background: #FFFFFF;
     flex-direction: column;
     width: 100%;
   }
@@ -840,7 +839,6 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: #e5ecfb;
 }
 .grants .box-container .box:hover {
   transform: scale(1.03);
@@ -890,7 +888,7 @@ header .navbar ul li a:hover {
 /* grants media queries starts*/
 @media screen and (max-width: 600px) {
   .grants .box-container .box {
-    background: rgb(200, 200, 200);
+    background: #FFFFFF;
     flex-direction: column;
     width: 100%;
   }

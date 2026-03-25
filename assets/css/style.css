@@ -404,7 +404,7 @@ header .navbar ul li a:hover {
 }
 .news .box-container .box .content h3 {
   font-size: 2rem;
-  color: #A9A9A9;
+  color: #04597e;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -489,7 +489,7 @@ header .navbar ul li a:hover {
   padding: 1rem;
 }
 .about .row .content h3 {
-  color: #A9A9A9;
+  color: #04597e;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -502,7 +502,7 @@ header .navbar ul li a:hover {
 }
 .about .row .content p {
   font-size: 2rem;
-  color: #D3D3D3;
+  color: #808080;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-family: sans-serif;
@@ -631,7 +631,7 @@ header .navbar ul li a:hover {
 }
 .research .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #1a047e;
+  color: #04597e;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -748,7 +748,7 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: #04597e;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -1129,7 +1129,7 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc {
   font-family: sans-serif;
-  color: #1a047e;
+  color: #04597e;
   font-size: 3rem;
   margin-left: 1rem;
   padding-bottom: 1rem;

@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #e6e6e6;
+  background: #E0E7E9;
   font-family: sans-serif;
 }
 
@@ -46,7 +46,7 @@ html::-webkit-scrollbar-thumb {
   top: 0;
   left: 0;
   z-index: 10000;
-  background: #e6eff1;
+  : #e6eff1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -350,7 +350,7 @@ header .navbar ul li a:hover {
 
 /* news section starts */
 .news {
-  background: #e6e6e6;
+  background: #E0E7E9;
   min-height: 80vh;
 }
 .news .qoute {
@@ -460,7 +460,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: #e6e6e6;
+  background: #E0E7E9;
 }
 .about .row {
   display: flex;
@@ -577,7 +577,7 @@ header .navbar ul li a:hover {
 
 /* research section starts */
 .research {
-  background: #e6e6e6;
+  background: #E0E7E9;
   min-height: 80vh;
 }
 .research .qoute {
@@ -687,7 +687,7 @@ header .navbar ul li a:hover {
 
 /* experiences section starts */
 .experiences {
-  background: #e6e6e6;
+  background: #E0E7E9;
   min-height: 80vh;
   justify-content: center; /* 垂直方向居中 (主轴) */
   align-items: center;     /* 水平方向居中 (交叉轴) */
@@ -809,7 +809,7 @@ header .navbar ul li a:hover {
 
 /* grants section starts */
 .grants {
-  background: #e6e6e6;
+  background: #E0E7E9;
   min-height: 80vh;
 }
 .grants .qoute {
@@ -919,7 +919,7 @@ header .navbar ul li a:hover {
 
 /* publications section starts */
 .publications {
-  background: #e6e6e6;
+  background: #E0E7E9;
   min-height: 80vh;
 }
 .publications .qoute {
@@ -1240,7 +1240,7 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e6e6e6;
+  background: #E0E7E9;
   min-height: 60vh;
 }
 .contact .container {

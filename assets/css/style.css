@@ -718,7 +718,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: rgb(252, 252, 252);
+  background: #A3C6C4;
 }
 .experiences .box-container .box:hover {
   transform: scale(1.03);
@@ -955,7 +955,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: rgb(252, 252, 252);
+  background: #A3C6C4;
 }
 .publications .box-container .box:hover {
   transform: scale(1.03);

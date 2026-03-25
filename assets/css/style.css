@@ -348,6 +348,8 @@ header .navbar ul li a:hover {
 /* home media queries ends*/
 /* home section end */
 
+
+
 /* news section starts */
 .news {
   background: #E0E7E9;
@@ -411,7 +413,7 @@ header .navbar ul li a:hover {
   margin-left: 1rem;
 }
 .news .box-container .box .content p {
-  color: rgb(55, 55, 55);
+  color: #C09247;
   font-size: 2rem;
   margin-left: 1rem;
   text-align: left;

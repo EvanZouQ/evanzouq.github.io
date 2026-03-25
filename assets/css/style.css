@@ -75,7 +75,7 @@ header {
 }
 section {
   min-height: 100vh;
-  padding: 2rem 9%;
+  padding: 8.5rem 9% 2rem;;
   scroll-margin-top: 6.5rem;
 }
 .heading {

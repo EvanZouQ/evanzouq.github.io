@@ -491,20 +491,20 @@ header .navbar ul li a:hover {
   padding: 1rem;
 }
 .about .row .content h3 {
-  color: #04597e;
+  color: rgb(70,81,105);
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 .about .row .content .tag {
   font-size: 2.5rem;
-  color: #808080;
+  color: rgb(160,158,92);
   font-weight: 600;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .about .row .content p {
   font-size: 2rem;
-  color: #808080;
+  color: rgb(54,60,63);
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-family: sans-serif;

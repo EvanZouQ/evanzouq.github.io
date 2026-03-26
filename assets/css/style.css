@@ -1539,8 +1539,8 @@ form .button-area {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
-  color: rgb(13, 0, 44);
+  background: rgb(177, 136, 106);
+  color: rgb(83, 84, 125);
   border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;

@@ -1103,7 +1103,7 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   right: 40px;
-  border: medium solid #A3C6C4;
+  border: medium solid rgb(255, 255, 255);
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #f68c09;
 }

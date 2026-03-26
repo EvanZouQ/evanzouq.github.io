@@ -1255,7 +1255,7 @@ header .navbar ul li a:hover {
   align-items: center;     /* 水平方向居中 (交叉轴) */
   text-align: center;
   max-width: 1050px;
-  width: 90%;
+  width: 60%;
   background: #A3C6C4;
   border-radius: 1.5rem;
   margin: 2rem 5rem;

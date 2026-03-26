@@ -500,7 +500,7 @@ header .navbar ul li a:hover {
 }
 .about .row .content .tag {
   font-size: 2.5rem;
-  color: rgb(160,158,92);
+  color: rgb(177,136,106);
   font-weight: 600;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -602,7 +602,6 @@ header .navbar ul li a:hover {
 .research .box-container .box {
   display: flex;
   flex-direction: row;
-  background: #A3C6C4;
   width: 90%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -723,7 +722,6 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: #A3C6C4;
 }
 .experiences .box-container .box:hover {
   transform: scale(1.03);
@@ -812,6 +810,8 @@ header .navbar ul li a:hover {
 /* experiences media queries ends*/
 /* experiences section ends */
 
+
+
 /* grants section starts */
 .grants {
   background: #E0E7E9;
@@ -834,7 +834,6 @@ header .navbar ul li a:hover {
 .grants .box-container .box {
   display: flex;
   flex-direction: row;
-  background: #A3C6C4;
   width: 90%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -960,7 +959,6 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: #A3C6C4;
 }
 .publications .box-container .box:hover {
   transform: scale(1.03);
@@ -1045,6 +1043,7 @@ header .navbar ul li a:hover {
 /* publications section ends */
 
 
+
 /* awards section starts */
 .awards .timeline {
   position: relative;
@@ -1122,7 +1121,6 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .awards .content {
-  background-color: #A3C6C4;
   position: relative;
   border-radius: 6px;
 }

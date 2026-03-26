@@ -375,7 +375,6 @@ header .navbar ul li a:hover {
 .news .box-container .box {
   display: flex;
   flex-direction: row;
-  background: #A3C6C4;
   width: 90%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -461,6 +460,7 @@ header .navbar ul li a:hover {
 }
 /* news media queries ends*/
 /* news section ends */
+
 
 
 /* about section starts */

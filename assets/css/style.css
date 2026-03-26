@@ -125,6 +125,8 @@ header .navbar ul li a:hover {
 }
 /* navbar ends */
 
+
+
 /* hamburger icon starts*/
 #menu {
   font-size: 3rem;
@@ -234,7 +236,7 @@ header .navbar ul li a:hover {
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: rgb(135, 95, 94);
 }
 .home .content p {
   font-size: 2.5rem;

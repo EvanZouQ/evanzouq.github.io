@@ -419,6 +419,7 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   margin-left: 1rem;
   text-align: left;
+  font-weight: 500;
 }
 .news h4 {
   font-size: 2rem;
@@ -497,6 +498,7 @@ header .navbar ul li a:hover {
   color: rgb(70,81,105);
   font-size: 3rem;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 .about .row .content .tag {
   font-size: 2.5rem;
@@ -511,7 +513,7 @@ header .navbar ul li a:hover {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-family: sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: none;
 }
 .about .row .content .box-container {

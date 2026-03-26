@@ -1250,6 +1250,7 @@ header .navbar ul li a:hover {
   min-height: 60vh;
 }
 .contact .container {
+  display: flex;
   justify-content: center; /* 垂直方向居中 (主轴) */
   align-items: center;     /* 水平方向居中 (交叉轴) */
   text-align: center;
@@ -1262,8 +1263,9 @@ header .navbar ul li a:hover {
 }
 .contact .container .content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* 垂直方向居中 (主轴) */
+  align-items: center;     /* 水平方向居中 (交叉轴) */
+  text-align: center;
   padding: 2.5rem 2rem;
 }
 .contact .content .image-box {

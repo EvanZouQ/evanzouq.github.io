@@ -1156,7 +1156,7 @@ header .navbar ul li a:hover {
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  color: #000000;
+  color: rgb(70,81,105);
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -1166,7 +1166,7 @@ header .navbar ul li a:hover {
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  color: #808080;
+  color: rgb(54,60,63);
   font-size: 2rem;
   font-weight: 600;
 }
@@ -1176,7 +1176,7 @@ header .navbar ul li a:hover {
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  color: #D3D3D3;
+  color: rgb(177,136,106);
   font-size: 2rem;
 }
 /* view all button */

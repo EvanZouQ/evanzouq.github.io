@@ -1154,7 +1154,7 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc h3 {
   font-family: sans-serif;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -1170,12 +1170,12 @@ header .navbar ul li a:hover {
   margin-right: 1rem;
   color: rgb(54,60,63);
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .awards .content .desc p {
   font-family: sans-serif;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
   color: rgb(177,136,106);

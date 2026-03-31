@@ -629,8 +629,8 @@ header .navbar ul li a:hover {
   height: 100%;
 }
 .research .box-container .box .content {
-  position: relative;
   display: flex;
+  position: relative;
   flex-direction: column;
   padding: 1rem;
   flex-wrap: wrap;
@@ -638,7 +638,7 @@ header .navbar ul li a:hover {
 }
 .research .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #04597e;
+  color: rgb(54,60,63);
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -754,7 +754,7 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #04597e;
+  color: rgb(70,81,105);
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -762,13 +762,13 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .content p {
   font-size: 2rem;
-  color: rgb(0, 0, 0);
+  color: rgb(54,60,63);
   margin-left: 1rem;
   text-align: left;
 }
 .experiences h4 {
   font-size: 2rem;
-  color: rgb(34, 109, 0);
+  color: rgb(177,136,106);
   text-align: left;
   margin: 1rem;
   font-family: sans-serif;
@@ -870,21 +870,21 @@ header .navbar ul li a:hover {
 }
 .grants .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #1a047e;
+  color: rgb(70,81,105);
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
   margin-left: 1rem;
 }
 .grants .box-container .box .content p {
-  color: rgb(55, 55, 55);
+  color: rgb(54,60,63);
   font-size: 2rem;
   margin-left: 1rem;
   text-align: left;
 }
 .grants h4 {
   font-size: 2rem;
-  color: rgb(34, 109, 0);
+  color: rgb(177,136,106);
   text-align: left;
   margin: 1rem;
   font-family: sans-serif;
@@ -995,6 +995,15 @@ header .navbar ul li a:hover {
 }
 .publications .box-container .box .content h4 {
   font-size: 2.5rem;
+  color: rgb(70,81,105);
+  padding: 0.5rem 0;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 1rem;
+}
+.publications .box-container .box .content h5 {
+  font-size: 2.5rem;
+  color: rgb(177,136,106);
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -1002,6 +1011,7 @@ header .navbar ul li a:hover {
 }
 .publications .box-container .box .content p {
   font-size: 2rem;
+  color: rgb(54,60,63);
   margin-left: 1rem;
   text-align: left;
 }

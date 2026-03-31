@@ -788,12 +788,12 @@ header .navbar ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: 6rem;
+    width: 6rem;
+    height: auto;
   }
   .experiences .box-container .box img {
-    width: auto;
-    height: 6rem;
+    width: 6rem;
+    height: auto;
   }
   .experiences .box-container .box .content {
     position: relative;
@@ -987,7 +987,7 @@ header .navbar ul li a:hover {
 }
 .publications .box-container .box .content h3 {
   font-size: 2.8rem;
-  color: #012970;
+  color: #6C7A89;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: center;
@@ -1087,15 +1087,15 @@ header .navbar ul li a:hover {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #FFDC9F;
-  border: 4px solid #ED7458;
+  background-color: #E5E5E5;
+  border: 4px solid #934A5F;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
   font-size: 1.89rem;
   text-align: center;
   font-weight: 600;
-  color: #DDC9BC;
+  color: #57648C;
   font-family: "Font Awesome\ 6 Free";
 }
 .awards .left {
@@ -1194,7 +1194,7 @@ header .navbar ul li a:hover {
   transition: 0.5s;
   color: #fff;
   background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 .morebtn .btn span {
@@ -1260,167 +1260,109 @@ header .navbar ul li a:hover {
 /* contact section starts */
 .contact {
   background: #E0E7E9;
-  min-height: 60vh;
+  min-height: 80vh;
 }
-.contact .container {
-  display: flex;
-  justify-content: center; /* 垂直方向居中 (主轴) */
-  align-items: center;     /* 水平方向居中 (交叉轴) */
+.contact .qoute {
+  font-size: 2rem;
   text-align: center;
-  max-width: 1050px;
-  width: 70%;
-  border-radius: 1.5rem;
-  margin: 2rem 5rem;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 0.5rem;
 }
-.contact .container .content {
+.contact .box-container {
   display: flex;
-  justify-content: center; /* 垂直方向居中 (主轴) */
-  align-items: center;     /* 水平方向居中 (交叉轴) */
-  text-align: center;
-  padding: 2.5rem 2rem;
-}
-.contact .content .image-box {
-  max-width: 60%;
-  margin-left: 4rem;
-}
-.contact .content .image-box img {
-  width: 100%;
-  height: 40rem;
-  position: relative;
-}
-.contact .content form {
-  display: flex;
-  justify-content: center; /* 垂直方向居中 (主轴) */
-  align-items: center;     /* 水平方向居中 (交叉轴) */
-  text-align: center;
-  width: 100%;
-  margin-right: 3.5rem;
-}
-form .form-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.form-group .field {
-  height: 50px;
+.contact .box-container .box {
   display: flex;
+  flex-direction: row;
+  width: 90%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  text-align: center;
   position: relative;
-  margin: 1rem;
+  margin-top: 2rem;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.contact .box-container .box:hover {
+  transform: scale(1.03);
+  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+}
+.contact .box-container .box .image {
+  flex: 1 1 20rem;
   width: 100%;
 }
-form i {
-  position: absolute;
-  top: 50%;
-  left: 18px;
-  color: rgb(51, 51, 51);
-  font-size: 17px;
-  pointer-events: none;
-  transform: translateY(-50%);
-}
-form .field input,
-form .message textarea {
+.contact .box-container .box img {
+  object-fit: cover;
+  position: relative;
   width: 100%;
   height: 100%;
-  outline: none;
-  padding: 0 16px 0 48px;
-  font-size: 16px;
-  font-family: sans-serif;
-  border-radius: 5px;
-  border: 1px solid rgb(51, 51, 51);
-  background: #F4F3EA;
 }
-.field input::placeholder,
-.message textarea::placeholder {
-  color: rgb(51, 51, 51);
-}
-.field input:focus,
-.message textarea:focus {
-  padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
-}
-.field input:focus ~ i,
-.message textarea:focus ~ i {
-  color: rgb(115, 3, 167);
-}
-form .message {
-  position: relative;
-  margin: 1rem;
-  width: 100%;
-}
-form .message i {
-  top: 25px;
-  font-size: 20px;
-  left: 15px;
-}
-form .message textarea {
-  min-height: 130px;
-  max-height: 230px;
-  max-width: 100%;
-  min-width: 100%;
-  padding: 12px 20px 0 48px;
-}
-form .message textarea::-webkit-scrollbar {
-  width: 0px;
-}
-form .button-area {
+.contact .box-container .box .content {
   display: flex;
-  float: right;
-  flex-direction: row-reverse;
-}
-.button-area button {
-  color: #fff;
-  border: none;
-  outline: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 13px 25px;
-  background: rgb(53, 75, 105);
-  transition: 0.3s ease;
-  font-family: sans-serif;
-}
-.button-area button:hover {
-  background: #421cecf5;
-}
-.button-area span {
-  font-size: 17px;
-  padding: 1rem;
-  display: none;
-}
-.button-area button i {
   position: relative;
-  top: 6px;
-  left: 2px;
-  font-size: 1.5rem;
-  transition: 0.3s;
-  color: #fff;
+  flex-direction: column;
+  padding: 1rem;
+  flex-wrap: wrap;
+  flex: 1 1 70rem;
 }
-.button-area button:hover i {
-  left: 8px;
+.contact .box-container .box .content h3 {
+  font-size: 2.5rem;
+  color: rgb(54,60,63);
+  padding: 0.5rem 0;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 1rem;
 }
-/* contact section media queries starts */
-@media (max-width: 900px) {
-  .contact {
-    min-height: 70vh;
-  }
-  .contact .container {
-    width: 70%;
-    margin: 3rem 0 2rem 0;
-  }
-  .contact .container .content {
-    padding: 18px 12px;
-  }
-  .contact .content .image-box {
-    display: none;
-  }
-  .contact .content form {
+.contact .box-container .box .content p {
+  color: rgb(55, 55, 55);
+  font-size: 2rem;
+  margin-left: 1rem;
+  text-align: left;
+}
+.contact h4 {
+  font-size: 2rem;
+  color: rgb(34, 109, 0);
+  text-align: left;
+  margin: 1rem;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+/* contact media queries starts*/
+@media screen and (max-width: 600px) {
+  .contact .box-container .box {
+    background: #A3C6C4;
+    flex-direction: column;
     width: 100%;
-    margin-right: 2rem;
+  }
+  .contact .box-container .box .image {
+    width: 100%;
+    height: 25rem;
+  }
+  .contact .box-container .box img {
+    width: 100%;
+  }
+  .contact .box-container .box .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex-wrap: wrap;
+    flex: 0;
+  }
+  .contact .btns {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-wrap: wrap;
   }
 }
-/* contact section media queries ends */
+/* contact media queries ends*/
 /* contact section ends */
 
 

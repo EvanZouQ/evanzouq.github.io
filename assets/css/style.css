@@ -1328,7 +1328,7 @@ form .message textarea {
   font-family: sans-serif;
   border-radius: 5px;
   border: 1px solid rgb(51, 51, 51);
-  background: #e5ecfb;
+  background: #F3E8EB;
 }
 .field input::placeholder,
 .message textarea::placeholder {

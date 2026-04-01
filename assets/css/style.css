@@ -119,7 +119,7 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #57648C;
+  color: rgb(196,122,155);
   border-bottom: 0.2rem solid #57648C;
   padding: 0.5rem 0;
 }

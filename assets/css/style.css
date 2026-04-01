@@ -119,8 +119,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: rgb(196,122,155);
-  border-bottom: 0.2rem solid #57648C;
+  color: rgb(198,175,117);
+  border-bottom: 0.2rem solid rgb(198,175,117);
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -146,7 +146,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: rgb(203,196,188);
   }
   header .navbar ul {
     flex-flow: column;
@@ -169,9 +169,9 @@ header .navbar ul li a:hover {
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
     padding: 1rem;
-    color: #fff;
+    color: rgb(198,175,117);
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
+    border-bottom: 0.5rem solid rgb(198,175,117);
   }
   .fa-times {
     transform: rotate(180deg);
@@ -433,7 +433,7 @@ header .navbar ul li a:hover {
 /* news media queries starts*/
 @media screen and (max-width: 600px) {
   .news .box-container .box {
-    background: #A3C6C4;
+    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
     flex-direction: column;
     width: 100%;
   }
@@ -662,7 +662,7 @@ header .navbar ul li a:hover {
 /* research media queries starts*/
 @media screen and (max-width: 600px) {
   .research .box-container .box {
-    background: #A3C6C4;
+    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
     flex-direction: column;
     width: 100%;
   }
@@ -894,7 +894,7 @@ header .navbar ul li a:hover {
 /* grants media queries starts*/
 @media screen and (max-width: 600px) {
   .grants .box-container .box {
-    background: #A3C6C4;
+    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
     flex-direction: column;
     width: 100%;
   }
@@ -1336,7 +1336,7 @@ header .navbar ul li a:hover {
 /* contact media queries starts*/
 @media screen and (max-width: 600px) {
   .contact .box-container .box {
-    background: #A3C6C4;
+    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
     flex-direction: column;
     width: 100%;
   }

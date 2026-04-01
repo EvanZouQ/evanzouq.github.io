@@ -146,7 +146,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: rgb(203,196,188);
+    background-color: rgb(139,140,140);
   }
   header .navbar ul {
     flex-flow: column;

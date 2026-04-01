@@ -19,7 +19,7 @@ $(document).ready(function () {
         $('section').each(function () {
             let top = $(window).scrollTop();
             let height = $(this).outerHeight(); // 【关键修改1】改成 outerHeight，把刚刚加的 padding 算进去
-            let offset = $(this).offset().top - 200; // 【关键修改2】微调了触发偏移量，让变色更精准
+            let offset = $(this).offset().top - 150; // 【关键修改2】微调了触发偏移量，让变色更精准
             let id = $(this).attr('id');
 
             if (top >= offset && top < offset + height) {
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["motion control", "machine learning"],
+    strings: ["Motion Control", "Machine Learning"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,

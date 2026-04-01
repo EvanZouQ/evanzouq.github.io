@@ -169,9 +169,9 @@ header .navbar ul li a:hover {
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
     padding: 1rem;
-    color: rgb(198,175,117);
+    color: rgb(75,92,116);
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid rgb(198,175,117);
+    border-bottom: 0.5rem solid rgb(75,92,116);
   }
   .fa-times {
     transform: rotate(180deg);

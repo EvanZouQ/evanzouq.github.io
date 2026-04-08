@@ -738,13 +738,13 @@ header .navbar ul li a:hover {
   flex: 1 1 20rem;
   padding: 1rem;
   width: auto;
-  height: 6rem;
+  height: 8rem;
 }
 .experiences .box-container .box img {
   object-fit: cover;
   position: relative;
   width: auto;
-  height: 100%;
+  height: 8rem;
 }
 .experiences .box-container .box .content {
   position: relative;

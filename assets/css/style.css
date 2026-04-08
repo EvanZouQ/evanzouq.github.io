@@ -744,7 +744,7 @@ header .navbar ul li a:hover {
   object-fit: cover;
   position: relative;
   width: auto;
-  height: 6rem;
+  height: 100%;
 }
 .experiences .box-container .box .content {
   position: relative;

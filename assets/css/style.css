@@ -735,7 +735,7 @@ header .navbar ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 0 0 20rem;
+  flex: 1 1 20rem;
   padding: 1rem;
   width: auto;
   height: 6rem;

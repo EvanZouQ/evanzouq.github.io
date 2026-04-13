@@ -790,12 +790,12 @@ header .navbar ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6rem;
-    height: auto;
+    width: auto;
+    height: 8rem;
   }
   .experiences .box-container .box img {
-    width: 6rem;
-    height: auto;
+    width: auto;
+    height: 8rem;
   }
   .experiences .box-container .box .content {
     position: relative;

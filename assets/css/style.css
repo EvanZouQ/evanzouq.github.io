@@ -1011,6 +1011,15 @@ header .navbar ul li a:hover {
   text-align: left;
   margin-left: 1rem;
 }
+
+.publications .box-container .box .content h6 {
+  font-size: 2.5rem;
+  color: rgb(199,186,159);
+  padding: 0.5rem 0;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 1rem;
+}
 .publications .box-container .box .content p {
   font-size: 2rem;
   color: rgb(54,60,63);

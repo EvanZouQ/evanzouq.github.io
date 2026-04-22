@@ -933,7 +933,7 @@ header .navbar ul li a:hover {
 }
 .publications .qoute {
   font-size: 2rem;
-  color: rgb(217,209,155);
+  color: rgb(144,125,172);
   text-align: center;
   font-family: sans-serif;
   font-weight: 600;
@@ -1015,7 +1015,7 @@ header .navbar ul li a:hover {
 
 .publications .box-container .box .content h6 {
   font-size: 2rem;
-  color: rgb(215,157,164);
+  color: rgb(176,101,90);
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;

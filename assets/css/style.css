@@ -638,15 +638,15 @@ header .navbar ul li a:hover {
 }
 .research .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: rgb(54,60,63);
+  color: rgb(70,81,105);
   padding: 0.5rem 0;
   font-weight: 500;
   text-align: left;
   margin-left: 1rem;
 }
 .research .box-container .box .content p {
-  color: rgb(55, 55, 55);
   font-size: 2rem;
+  color: rgb(54,60,63);
   margin-left: 1rem;
   text-align: left;
 }

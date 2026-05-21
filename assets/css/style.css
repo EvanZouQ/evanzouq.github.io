@@ -930,6 +930,9 @@ header .navbar ul li a:hover {
 .publications {
   background: #E0E7E9;
   min-height: 80vh;
+  justify-content: center; /* 垂直方向居中 (主轴) */
+  align-items: center;     /* 水平方向居中 (交叉轴) */
+  text-align: center;
 }
 .publications .qoute {
   font-size: 2rem;
@@ -957,6 +960,7 @@ header .navbar ul li a:hover {
 .publications .box-container .box {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 90%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -971,6 +975,9 @@ header .navbar ul li a:hover {
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
 }
 .publications .box-container .box .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 20rem;
   width: auto;
   height: 8rem;
@@ -1041,9 +1048,15 @@ header .navbar ul li a:hover {
 @media screen and (max-width: 600px) {
   .publications .box-container .box {
     flex-direction: column;
-    width: 100%;
+    justify-content: center; /* 垂直方向居中 (主轴) */
+    align-items: center;     /* 水平方向居中 (交叉轴) */
+    text-align: center;
+    height: 100%;
   }
   .publications .box-container .box .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: 8rem;
   }

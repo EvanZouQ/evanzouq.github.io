@@ -972,13 +972,14 @@ header .navbar ul li a:hover {
 }
 .publications .box-container .box .image {
   flex: 1 1 20rem;
-  width: 50%;
+  width: auto;
+  height: 8rem;
 }
 .publications .box-container .box img {
   object-fit: cover;
   position: relative;
   width: auto;
-  height: 10rem;
+  height: 8rem;
 }
 .publications .box-container .box .content {
   position: relative;
@@ -1043,11 +1044,12 @@ header .navbar ul li a:hover {
     width: 100%;
   }
   .publications .box-container .box .image {
-    width: 50%;
-    height: 20rem;
+    width: auto;
+    height: 8rem;
   }
   .publications .box-container .box img {
-    width: 50%;
+    width: auto;
+    height: 8rem;
   }
   .publications .box-container .box .content {
     position: relative;

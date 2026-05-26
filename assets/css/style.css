@@ -780,6 +780,7 @@ header .navbar ul li a:hover {
 /* experiences media queries starts*/
 @media screen and (max-width: 600px) {
   .experiences .box-container .box {
+    width: 90%;
     flex-direction: column;
     justify-content: center; /* 垂直方向居中 (主轴) */
     align-items: center;     /* 水平方向居中 (交叉轴) */
@@ -1051,6 +1052,7 @@ header .navbar ul li a:hover {
     justify-content: center; /* 垂直方向居中 (主轴) */
     align-items: center;     /* 水平方向居中 (交叉轴) */
     text-align: center;
+    width: 90%;
     height: 100%;
   }
   .publications .box-container .box .image {
@@ -1181,7 +1183,7 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc h3 {
   font-family: sans-serif;
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;

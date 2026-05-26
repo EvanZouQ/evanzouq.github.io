@@ -134,7 +134,7 @@ header .navbar ul li a:hover {
   color: rgb(24, 2, 63);
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #menu {
     display: block;
   }

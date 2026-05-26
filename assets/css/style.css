@@ -737,14 +737,14 @@ header .navbar ul li a:hover {
   align-items: center;
   flex: 1 1 20rem;
   padding: 1rem;
-  width: 8rem;
-  height: auto;
+  width: auto;
+  height: 8rem;
 }
 .experiences .box-container .box img {
   object-fit: cover;
   position: relative;
-  width: 8rem;
-  height: auto;
+  width: auto;
+  height: 8rem;
 }
 .experiences .box-container .box .content {
   position: relative;

@@ -142,7 +142,7 @@ header .navbar ul li a:hover {
     position: fixed;
     top: 6.5rem;
     right: -120%;
-    width: 75%;
+    width: 45%;
     height: calc(100vh - 6.5rem); /* 计算扣除顶部导航栏后的剩余屏幕高度 */
     overflow-y: auto; 
     text-align: left;

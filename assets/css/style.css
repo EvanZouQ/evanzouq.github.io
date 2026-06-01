@@ -797,12 +797,12 @@ header .navbar ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8rem;
-    height: auto;
+    width: auto;
+    height: 8rem;
   }
   .experiences .box-container .box img {
-    width: 8rem;
-    height: auto;
+    width: auto;
+    height: 8rem;
   }
   .experiences .box-container .box .content {
     position: relative;
@@ -1067,12 +1067,12 @@ header .navbar ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8rem;
-    height: auto;
+    width: auto;
+    height: 8rem;
   }
   .publications .box-container .box img {
-    width: 8rem;
-    height: auto;
+    width: auto;
+    height: 8rem;
   }
   .publications .box-container .box .content {
     position: relative;

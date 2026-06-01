@@ -718,9 +718,10 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box {
   display: flex;
-  flex-direction: column !important;
-  align-items: center !important;
+  flex-direction: column;
+  align-items: center;
   width: 90%;
+  height: auto; 
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -728,6 +729,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
+  padding: 1.2rem 2rem
 }
 .experiences .box-container .box:hover {
   transform: scale(1.03);
@@ -741,6 +743,7 @@ header .navbar ul li a:hover {
   padding: 1rem;
   width: auto;
   height: 8rem;
+  margin-bottom: 0.5rem;
 }
 .experiences .box-container .box img {
   object-fit: cover;

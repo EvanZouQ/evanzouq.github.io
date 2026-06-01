@@ -730,7 +730,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  padding: 1.2rem
+  padding: 0.5rem
 }
 .experiences .box-container .box:hover {
   transform: scale(1.03);
@@ -743,7 +743,7 @@ header .navbar ul li a:hover {
   align-items: center;
   width: auto;
   height: 8rem;
-  margin-bottom: 0rem;
+  margin-bottom: -0.5rem;
 }
 .experiences .box-container .box img {
   object-fit: cover;

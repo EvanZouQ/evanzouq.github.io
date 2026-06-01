@@ -755,8 +755,7 @@ header .navbar ul li a:hover {
   flex-direction: column;
   padding: 1rem;
   flex-wrap: wrap;
-  flex: 1 1 70rem;
-  text-align: left !important; /* 容器内默认左对齐 */
+  text-align: left; /* 容器内默认左对齐 */
 }
 .experiences .box-container .box .content h3 {
   font-size: 2.5rem;
@@ -984,7 +983,6 @@ header .navbar ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1 1 20rem;
   width: 8rem;
   height: auto;
 }
@@ -997,8 +995,7 @@ header .navbar ul li a:hover {
 .publications .box-container .box .content {
   position: relative;
   display: flex;
-  flex: 1 1 70rem;
-  text-align: left
+  text-align: left;
   flex-direction: column;
   padding: 1rem;
   flex-wrap: wrap;
@@ -1019,7 +1016,7 @@ header .navbar ul li a:hover {
   text-align: left;
   margin-left: 1rem;
 }
-.publications .box-container .box .content h5 {
+.publications .box-container .box .content h6  {
   font-size: 2.5rem;
   color: rgb(177,136,106);
   padding: 0.5rem 0;

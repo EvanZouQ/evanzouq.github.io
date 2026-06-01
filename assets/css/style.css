@@ -779,6 +779,43 @@ header .navbar ul li a:hover {
 }
 
 /* experiences media queries starts*/
+@media screen and (max-width: 1800px) and (min-width: 600px){
+  .experiences .box-container .box {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center; /* 垂直方向居中 (主轴) */
+    align-items: center;     /* 水平方向居中 (交叉轴) */
+    text-align: center;
+    height: 100%;
+  }
+  .experiences .box-container .box .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: auto;
+  }
+  .experiences .box-container .box img {
+    width: 8rem;
+    height: auto;
+  }
+  .experiences .box-container .box .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex-wrap: wrap;
+    flex: 0;
+  }
+  .experiences .btns {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-wrap: wrap;
+  }
+}
+
+/* experiences media queries starts*/
 @media screen and (max-width: 600px) {
   .experiences .box-container .box {
     width: 90%;
@@ -1044,6 +1081,43 @@ header .navbar ul li a:hover {
   margin: 1rem;
   font-family: sans-serif;
   font-weight: 700;
+}
+
+/* publications media queries starts*/
+@media screen and (max-width: 1800px) and (min-width: 600px) {
+  .publications .box-container .box {
+    flex-direction: column;
+    justify-content: center; /* 垂直方向居中 (主轴) */
+    align-items: center;     /* 水平方向居中 (交叉轴) */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .publications .box-container .box .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: auto;
+  }
+  .publications .box-container .box img {
+    width: 8rem;
+    height: auto;
+  }
+  .publications .box-container .box .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex-wrap: wrap;
+    flex: 0;
+  }
+  .publications .btns {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-wrap: wrap;
+  }
 }
 
 /* publications media queries starts*/

@@ -784,14 +784,14 @@ header .navbar ul li a:hover {
 }
 
 /* experiences media queries starts*/
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1200px) {
   .experiences .box-container .box {
     width: 90%;
     flex-direction: column;
     justify-content: center; /* 垂直方向居中 (主轴) */
     align-items: center;     /* 水平方向居中 (交叉轴) */
     text-align: center;
-    height: 100%;
+    height: auto;
   }
   .experiences .box-container .box .image {
     display: flex;
@@ -799,6 +799,7 @@ header .navbar ul li a:hover {
     align-items: center;
     width: auto;
     height: 8rem;
+    margin-bottom: 0;
   }
   .experiences .box-container .box img {
     width: auto;
@@ -808,7 +809,7 @@ header .navbar ul li a:hover {
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0 1rem 1rem;
     flex-wrap: wrap;
     flex: 0;
   }

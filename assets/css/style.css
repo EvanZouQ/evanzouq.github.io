@@ -1009,7 +1009,7 @@ header .navbar ul li a:hover {
   color: #6C7A89;
   padding: 0.5rem 0;
   font-weight: 600;
-  text-align: left;
+  text-align: left !important;
   margin-left: 1rem;
 }
 .publications .box-container .box .content h4 {
@@ -1017,7 +1017,7 @@ header .navbar ul li a:hover {
   color: rgb(70,81,105);
   padding: 0.5rem 0;
   font-weight: 600;
-  text-align: left;
+  text-align: left !important;
   margin-left: 1rem;
 }
 .publications .box-container .box .content h5  {
@@ -1025,7 +1025,7 @@ header .navbar ul li a:hover {
   color: rgb(177,136,106);
   padding: 0.5rem 0;
   font-weight: 600;
-  text-align: left;
+  text-align: left !important;
   margin-left: 1rem;
 }
 
@@ -1034,19 +1034,19 @@ header .navbar ul li a:hover {
   color: rgb(128,137,122);
   padding: 0.5rem 0;
   font-weight: 600;
-  text-align: left;
+  text-align: left !important;
   margin-left: 1rem;
 }
 .publications .box-container .box .content p {
   font-size: 2rem;
   color: rgb(54,60,63);
   margin-left: 1rem;
-  text-align: left;
+  text-align: left !important;
 }
 .publications h4 {
   font-size: 2rem;
   color: rgb(34, 109, 0);
-  text-align: center;
+  text-align: left !important;
   margin: 1rem;
   font-family: sans-serif;
   font-weight: 700;

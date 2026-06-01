@@ -784,7 +784,7 @@ header .navbar ul li a:hover {
 }
 
 /* experiences media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1800px) {
   .experiences .box-container .box {
     width: 90%;
     flex-direction: column;

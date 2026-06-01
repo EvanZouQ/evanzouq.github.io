@@ -986,14 +986,14 @@ header .navbar ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 8rem;
-  height: auto;
+  width: auto;
+  height: 10rem;
 }
 .publications .box-container .box img {
   object-fit: cover;
   position: relative;
-  width: 8rem;
-  height: auto;
+  width: auto;
+  height: 10rem;
 }
 .publications .box-container .box .content {
   position: relative;

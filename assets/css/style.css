@@ -142,7 +142,7 @@ header .navbar ul li a:hover {
     position: fixed;
     top: 6.5rem;
     right: -120%;
-    width: 20%;
+    width: 230px;
     min-width: 270px;
     height: calc(100vh - 6.5rem); /* 计算扣除顶部导航栏后的剩余屏幕高度 */
     overflow-y: auto; 
@@ -163,9 +163,9 @@ header .navbar ul li a:hover {
   }
   header .navbar ul li a {
     display: block;
-    padding: 1rem;
+    padding: 1rem 1.5rem 1rem 1rem;
     text-align: left;
-    color: #fff;
+    color: #0e2431;
     font-size: 1.5rem;
   }
   header .navbar ul li a.active,

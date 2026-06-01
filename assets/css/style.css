@@ -729,7 +729,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  padding: 1.2rem 2rem
+  padding: 1.2rem
 }
 .experiences .box-container .box:hover {
   transform: scale(1.03);
@@ -739,8 +739,6 @@ header .navbar ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1 1 20rem;
-  padding: 1rem;
   width: auto;
   height: 8rem;
   margin-bottom: 0.5rem;

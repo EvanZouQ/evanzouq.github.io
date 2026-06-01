@@ -793,6 +793,7 @@ header .navbar ul li a:hover {
     align-items: center;     /* 水平方向居中 (交叉轴) */
     text-align: center;
     height: auto;
+    padding: 0.5rem;
   }
   .experiences .box-container .box .image {
     display: flex;
@@ -800,7 +801,7 @@ header .navbar ul li a:hover {
     align-items: center;
     width: auto;
     height: 8rem;
-    margin-bottom: 0;
+    margin-bottom: -0.5rem;
   }
   .experiences .box-container .box img {
     width: auto;

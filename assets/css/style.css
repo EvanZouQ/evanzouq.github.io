@@ -1066,11 +1066,11 @@ header .navbar ul li a:hover {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 8rem;
+    height: 10rem;
   }
   .publications .box-container .box img {
     width: auto;
-    height: 8rem;
+    height: 10rem;
   }
   .publications .box-container .box .content {
     position: relative;

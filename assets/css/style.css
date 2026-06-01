@@ -1012,6 +1012,9 @@ header .navbar ul li a:hover {
   text-align: left !important;
   margin-left: 1rem;
 }
+.publications .box-container .box .content h3 a {
+  text-align: left !important;
+}
 .publications .box-container .box .content h4 {
   font-size: 2.5rem;
   color: rgb(70,81,105);
@@ -1019,6 +1022,9 @@ header .navbar ul li a:hover {
   font-weight: 600;
   text-align: left !important;
   margin-left: 1rem;
+}
+.publications .box-container .box .content h4 a {
+  text-align: left !important;
 }
 .publications .box-container .box .content h5  {
   font-size: 2.5rem;
@@ -1028,7 +1034,9 @@ header .navbar ul li a:hover {
   text-align: left !important;
   margin-left: 1rem;
 }
-
+.publications .box-container .box .content h5 a {
+  text-align: left !important;
+}
 .publications .box-container .box .content h6 {
   font-size: 2rem;
   color: rgb(128,137,122);
@@ -1037,10 +1045,16 @@ header .navbar ul li a:hover {
   text-align: left !important;
   margin-left: 1rem;
 }
+.publications .box-container .box .content h6 a {
+  text-align: left !important;
+}
 .publications .box-container .box .content p {
   font-size: 2rem;
   color: rgb(54,60,63);
   margin-left: 1rem;
+  text-align: left !important;
+}
+.publications .box-container .box .content p a {
   text-align: left !important;
 }
 

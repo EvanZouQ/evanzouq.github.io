@@ -719,7 +719,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-direction: column !important;
   align-items: center !important;
-  width: 90%;
+  width: 30%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;

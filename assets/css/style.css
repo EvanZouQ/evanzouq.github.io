@@ -719,7 +719,7 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 90%;
   height: auto; 
@@ -738,11 +738,12 @@ header .navbar ul li a:hover {
 }
 .experiences .box-container .box .image {
   display: flex;
+  flex: 1 1 20rem;
   justify-content: center;
   align-items: center;
   width: auto;
   height: 8rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 .experiences .box-container .box img {
   object-fit: cover;
@@ -753,6 +754,7 @@ header .navbar ul li a:hover {
 .experiences .box-container .box .content {
   position: relative;
   display: flex;
+  flex: 1 1 70rem;
   flex-direction: column;
   padding: 1rem;
   flex-wrap: wrap;
@@ -1017,7 +1019,7 @@ header .navbar ul li a:hover {
   text-align: left;
   margin-left: 1rem;
 }
-.publications .box-container .box .content h6  {
+.publications .box-container .box .content h5  {
   font-size: 2.5rem;
   color: rgb(177,136,106);
   padding: 0.5rem 0;

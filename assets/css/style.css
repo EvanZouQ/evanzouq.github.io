@@ -142,8 +142,8 @@ header .navbar ul li a:hover {
     position: fixed;
     top: 6.5rem;
     right: -120%;
-    width: 230px;
-    min-width: 270px;
+    width: 260px;
+    min-width: 260px;
     height: calc(100vh - 6.5rem); /* 计算扣除顶部导航栏后的剩余屏幕高度 */
     overflow-y: auto; 
     text-align: left;
@@ -159,7 +159,7 @@ header .navbar ul li a:hover {
     width: 100%;
     margin: 1rem 0;
     border-radius: 0.5rem;
-    width: 26rem;
+    width: 100%;
   }
   header .navbar ul li a {
     display: block;
@@ -167,6 +167,7 @@ header .navbar ul li a:hover {
     text-align: left;
     color: #ffffff;
     font-size: 1.5rem;
+    white-space: nowrap;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover {

@@ -1124,6 +1124,7 @@ header .navbar ul li a:hover {
 }
 .awards .container {
   padding: 10px 40px;
+  padding-top: 20px;
   position: relative;
   background-color: inherit;
   width: 50%;

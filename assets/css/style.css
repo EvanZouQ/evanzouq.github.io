@@ -1160,7 +1160,7 @@ header .navbar ul li a:hover {
   top: 26px;
   width: 0;
   z-index: 1;
-  right: 40px;
+  right: 35px;
   border: medium solid #A3C6C4;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #f68c09;
@@ -1173,7 +1173,7 @@ header .navbar ul li a:hover {
   top: 26px;
   width: 0;
   z-index: 1;
-  left: 40px;
+  left: 35px;
   border: medium solid #A3C6C4;
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
@@ -1186,7 +1186,7 @@ header .navbar ul li a:hover {
   position: relative;
   border-radius: 6px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 .awards .content .tag {
   font-family: sans-serif;
@@ -1203,7 +1203,7 @@ header .navbar ul li a:hover {
 }
 .awards .content .desc h3 {
   font-family: sans-serif;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;

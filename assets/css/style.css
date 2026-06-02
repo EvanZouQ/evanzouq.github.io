@@ -992,13 +992,13 @@ header .navbar ul li a:hover {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 10rem;
+  height: 12rem;
 }
 .publications .box-container .box img {
   object-fit: cover;
   position: relative;
   width: auto;
-  height: 10rem;
+  height: 12rem;
 }
 .publications .box-container .box .content {
   position: relative;

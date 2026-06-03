@@ -1062,6 +1062,20 @@ header .navbar ul li a:hover {
 .publications .box-container .box .content p a {
   text-align: left !important;
 }
+/* year group header */   ← 加在这里
+.publications .year-group {
+  width: 90%;
+  margin: 2.5rem auto 0;
+}
+.publications .year-group .year-label {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #b84040;
+  padding-bottom: 0.8rem;
+  border-bottom: 2px solid rgb(70,81,105);
+  margin-bottom: 0;
+  font-family: sans-serif;
+}
 
 /* publications media queries starts*/
 @media screen and (max-width: 600px) {
@@ -1099,6 +1113,63 @@ header .navbar ul li a:hover {
     margin-right: 1rem;
     flex-wrap: wrap;
   }
+  .publications .year-group {
+    width: 100%;
+    margin: 2rem auto 0;
+  }
+  .publications .year-group .year-label {
+    font-size: 2.4rem;
+  }
+}
+完整的 media queries 部分就变成：
+
+css
+/* publications media queries starts*/
+@media screen and (max-width: 600px) {
+  .publications .box-container .box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .publications .box-container .box .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 10rem;
+  }
+  .publications .box-container .box img {
+    width: auto;
+    height: 10rem;
+  }
+  .publications .box-container .box .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex-wrap: wrap;
+    flex: 0;
+    width: 100%;
+  }
+  .publications .btns {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-wrap: wrap;
+  }
+  /* ↓ 新增 */
+  .publications .year-group {
+    width: 100%;
+    margin: 2rem auto 0;
+  }
+  .publications .year-group .year-label {
+    font-size: 2.4rem;
+  }
+}
+
 }
 /* publications media queries ends*/
 /* publications section ends */

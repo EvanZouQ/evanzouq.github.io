@@ -1062,10 +1062,41 @@ header .navbar ul li a:hover {
 .publications .box-container .box .content p a {
   text-align: left !important;
 }
-/* year group header */   ← 加在这里
+/* year tab filter */
+.publications .year-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 1.5rem 0 2rem;
+  justify-content: center;
+}
+.publications .year-tabs .tab-btn {
+  padding: 0.6rem 2rem;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: rgb(54,60,63);
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: sans-serif;
+}
+.publications .year-tabs .tab-btn.active {
+  background: rgb(70,81,105);
+  color: #fff;
+  border-color: rgb(70,81,105);
+}
+.publications .year-tabs .tab-btn:hover:not(.active) {
+  background: #f0f0f0;
+}
 .publications .year-group {
+  display: none;
   width: 90%;
-  margin: 2.5rem auto 0;
+  margin: 0 auto;
+}
+.publications .year-group.active {
+  display: block;
 }
 .publications .year-group .year-label {
   font-size: 2.8rem;
@@ -1081,51 +1112,6 @@ header .navbar ul li a:hover {
 @media screen and (max-width: 600px) {
   .publications .box-container .box {
     flex-direction: column;
-    justify-content: center; /* 垂直方向居中 (主轴) */
-    align-items: center;     /* 水平方向居中 (交叉轴) */
-    text-align: center;
-    width: 100%;
-    height: 100%;
-  }
-  .publications .box-container .box .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 10rem;
-  }
-  .publications .box-container .box img {
-    width: auto;
-    height: 10rem;
-  }
-  .publications .box-container .box .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    flex-wrap: wrap;
-    flex: 0;
-    width: 100%; 
-  }
-  .publications .btns {
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    flex-wrap: wrap;
-  }
-  .publications .year-group {
-    width: 100%;
-    margin: 2rem auto 0;
-  }
-  .publications .year-group .year-label {
-    font-size: 2.4rem;
-  }
-}
-
-/* publications media queries starts*/
-@media screen and (max-width: 600px) {
-  .publications .box-container .box {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -1160,10 +1146,13 @@ header .navbar ul li a:hover {
   }
   .publications .year-group {
     width: 100%;
-    margin: 2rem auto 0;
   }
   .publications .year-group .year-label {
     font-size: 2.4rem;
+  }
+  .publications .year-tabs .tab-btn {
+    font-size: 1.4rem;
+    padding: 0.5rem 1.5rem;
   }
 }
 /* publications media queries ends*/

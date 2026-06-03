@@ -1121,9 +1121,7 @@ header .navbar ul li a:hover {
     font-size: 2.4rem;
   }
 }
-完整的 media queries 部分就变成：
 
-css
 /* publications media queries starts*/
 @media screen and (max-width: 600px) {
   .publications .box-container .box {
@@ -1160,7 +1158,6 @@ css
     margin-right: 1rem;
     flex-wrap: wrap;
   }
-  /* ↓ 新增 */
   .publications .year-group {
     width: 100%;
     margin: 2rem auto 0;
@@ -1168,8 +1165,6 @@ css
   .publications .year-group .year-label {
     font-size: 2.4rem;
   }
-}
-
 }
 /* publications media queries ends*/
 /* publications section ends */

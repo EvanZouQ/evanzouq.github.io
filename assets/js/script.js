@@ -238,3 +238,11 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+/* year tab filter for publications*/
+function showYear(id, btn) {
+  document.querySelectorAll('.publications .tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.publications .year-group').forEach(g => g.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById(id).classList.add('active');
+}
